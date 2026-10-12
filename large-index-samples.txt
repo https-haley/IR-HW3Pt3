@@ -1,0 +1,191 @@
+DICTIONARY - FIRST 30 LINES
+             #  361      0
+  #10aa0de0-81    2    361
+  #20d85a6f-78    2    363
+  #3f5eec8e-12    2    365
+  #5ae0cc4c-ec    2    367
+  #_2c630rcalo    2    369
+  #_46cp6wex4y    2    371
+  #_8v6wf5fj48    2    373
+  #_h340mcv2xv    2    375
+  #_jjw1hnl42p    2    377
+  #_np9kypco1y    2    379
+  #_nzs235i9ta    2    381
+  #_oeyarkaxla    2    383
+  #_q69pwqnfvk    2    385
+  #_r3qxw2i48w    2    387
+  #_slwgrugxwj    2    389
+  #_xw7bxwudlx    2    391
+  #_yj0cgny8k6    2    393
+            #a   36    395
+       #a-main   10    431
+        #about    2    441
+           #ac    3    443
+  #accessibili    7    446
+          #all    2    453
+  #alumni-givi    2    455
+    #articles-    3    457
+  #arts-athlet    2    460
+            #b    6    462
+            #c    6    468
+       #campus    2    474
+
+DICTIONARY - LAST 30 LINES
+           zyz    3 858887
+            zz   22 858890
+           zza    2 858912
+           zzb    5 858914
+          zzbl    2 858919
+           zzc    2 858921
+           zzd    2 858923
+           zze    3 858925
+           zzf    3 858928
+           zzg    5 858931
+           zzh    3 858936
+           zzi    5 858939
+           zzj    5 858944
+           zzk    6 858949
+           zzl    4 858955
+           zzm    5 858959
+         zzmzy    5 858964
+           zzn    3 858969
+           zzo    3 858972
+           zzp    3 858975
+           zzq    4 858978
+           zzr    5 858982
+           zzs    3 858987
+           zzt    4 858990
+           zzu    4 858994
+           zzv    3 858998
+           zzw    5 859001
+           zzx    5 859006
+           zzy    6 859011
+           zzz    4 859017
+
+POSTINGS - FIRST 30 LINES
+   1        1
+   3        1
+   7        1
+  10        1
+  16        8
+  26        5
+  27        1
+  35        1
+  36        1
+  38        1
+  42        5
+  44        3
+  46        3
+  47        2
+  48        1
+  50        1
+  57        1
+  61        1
+  62        5
+  64        1
+  70        1
+  79       21
+  81        3
+  82        2
+  83        1
+  84        3
+  86        1
+  87        1
+  93        2
+ 104        1
+
+POSTINGS - LAST 30 LINES
+ 864        1
+ 916        2
+ 975        2
+  95        1
+ 841        2
+ 916        1
+ 975        2
+ 670        1
+ 841        3
+ 916        5
+ 438        1
+ 522        1
+ 608        1
+ 916        2
+ 975        2
+  76        1
+ 438        2
+ 841        3
+ 901        1
+1188        1
+ 438        2
+ 841        1
+ 916        2
+ 921        1
+ 975        2
+1188        1
+ 841        1
+ 921        1
+ 975        2
+1017        1
+
+MAP - FIRST 30 LINES
+              files/uci_8.html
+            files/uark_17.html
+       files/princeton_27.html
+             files/mit_19.html
+            files/wisc_18.html
+              files/osu_6.html
+        files/colorado_28.html
+          files/gatech_24.html
+         files/virginia_4.html
+              files/cmu_2.html
+        files/rochester_3.html
+             files/msu_27.html
+              files/umn_2.html
+          files/harvard_4.html
+            files/wisc_27.html
+         files/arizona_19.html
+             files/ucsd_9.html
+             files/msu_13.html
+             files/yale_2.html
+       files/rochester_25.html
+             files/msu_15.html
+            files/pitt_17.html
+             files/psu_17.html
+                files/901.html
+           files/purdue_2.html
+             files/usc_10.html
+          files/utexas_30.html
+          files/gatech_26.html
+       files/washington_1.html
+             files/umd_13.html
+
+MAP - LAST 30 LINES
+       files/vanderbilt_1.html
+             files/cmu_10.html
+             files/jhu_12.html
+             files/uci_17.html
+            files/wisc_21.html
+             files/jhu_16.html
+           files/brown_30.html
+              files/msu_6.html
+            files/wustl_1.html
+              files/osu_5.html
+             files/umn_16.html
+         files/cornell_12.html
+            files/umich_6.html
+          files/gatech_15.html
+           files/utexas_2.html
+         files/caltech_20.html
+             files/msu_17.html
+          files/caltech_1.html
+             files/msu_19.html
+          files/gatech_19.html
+    files/northwestern_28.html
+         files/stanford_5.html
+       files/washington_2.html
+           files/upenn_13.html
+        files/colorado_29.html
+          files/utexas_10.html
+      files/washington_27.html
+         files/illinois_5.html
+           files/brown_15.html
+              files/osu_2.html

@@ -1,0 +1,85 @@
+Script started on 2026-10-01 16:44:37-05:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="120" LINES="30"]
+[?2004h]0;htrejo@turing: ~/HW3Pt2[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt2[00m$ [7mrm -rf tinyoutput[27mrm -rf tinyoutput
+[?2004l[?2004h]0;htrejo@turing: ~/HW3Pt2[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt2[00m$ [7m./hw3pt2.sh tinyfiles tinyoutput[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./hw3pt2.sh tinyfiles tinyoutput
+[?2004l
+Processing file tinyfiles/2.html
+Total tokens in document: 8
+Unique tokens in document: 6
+Collisions: 0, Used: 6, Lookups: 0
+
+Processing file tinyfiles/0.html
+Total tokens in document: 4
+Unique tokens in document: 4
+Collisions: 0, Used: 4, Lookups: 0
+
+Processing file tinyfiles/3.html
+Total tokens in document: 3
+Unique tokens in document: 3
+Collisions: 0, Used: 3, Lookups: 0
+
+Processing file tinyfiles/1.html
+Total tokens in document: 5
+Unique tokens in document: 4
+Collisions: 0, Used: 4, Lookups: 0
+
+Collection total tokens: 20
+Done tokenizing.
+[?2004h]0;htrejo@turing: ~/HW3Pt2[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt2[00m$ [7mecho "===== tinyoutput/0.html ====="[27m
+[7mcat tinyoutput/0.html[27m[A]0;htrejo@turing: ~/HW3Pt2[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt2[00m$ echo "===== tinyoutput/0.html ====="
+cat tinyoutput/0.html
+[?2004l===== tinyoutput/0.html =====
+ate 1
+quickly 1
+the 1
+dog 1
+[?2004h]0;htrejo@turing: ~/HW3Pt2[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt2[00m$ [7mecho "===== tinyoutput/1.html ====="[27m
+[7mcat tinyoutput/1.html[27m[A]0;htrejo@turing: ~/HW3Pt2[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt2[00m$ echo "===== tinyoutput/1.html ====="
+cat tinyoutput/1.html
+[?2004l===== tinyoutput/1.html =====
+and 1
+ate 2
+the 1
+dog 1
+[?2004h]0;htrejo@turing: ~/HW3Pt2[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt2[00m$ [7mecho "===== tinyoutput/2.html ====="[27m
+[7mcat tinyoutput/2.html[27m[A]0;htrejo@turing: ~/HW3Pt2[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt2[00m$ echo "===== tinyoutput/2.html ====="
+cat tinyoutput/2.html
+[?2004l===== tinyoutput/2.html =====
+duck 1
+ate 1
+doctor 2
+the 2
+is 1
+dry 1
+[?2004h]0;htrejo@turing: ~/HW3Pt2[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt2[00m$ 
+[7mecho "===== tinyoutput/3.html ====="[27m
+[7mcat tinyoutput/3.html[27m[Aecho "===== tinyoutput/3.html ====="
+cat tinyoutput/3.html
+[?2004l===== tinyoutput/3.html =====
+ate 1
+cat 1
+the 1
+[?2004h]0;htrejo@turing: ~/HW3Pt2[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt2[00m$ [7mls -lt[27mls -lt
+[?2004ltotal 248
+drwxr-xr-x 2 htrejo htrejo  4096 Oct  1 16:44 [0m[01;34mtinyoutput[0m
+-rwxr-xr-x 1 htrejo htrejo 57952 Oct  1 16:44 [01;32mmultiplefiles[0m
+-rw-r--r-- 1 htrejo htrejo 57736 Oct  1 16:44 lex.yy.c
+-rw-r--r-- 1 htrejo htrejo     0 Oct  1 16:44 hw3pt2-typescript
+-rwxr-xr-x 1 htrejo htrejo   340 Oct  1 16:41 [01;32mhw3pt2.sh[0m
+-rw-r--r-- 1 htrejo htrejo  7648 Oct  1 16:38 multiplefiles.lex
+-rw-r--r-- 1 htrejo htrejo     7 Oct  1 16:22 config.txt
+-rw-r--r-- 1 htrejo htrejo     0 Oct  1 16:22 dict.txt
+-rw-r--r-- 1 htrejo htrejo   124 Oct  1 16:22 map.txt
+-rw-r--r-- 1 htrejo htrejo   238 Oct  1 16:22 post.txt
+-rw-r--r-- 1 htrejo htrejo 23264 Oct  1 15:31 invertedFile.o
+-rw-r--r-- 1 htrejo htrejo  4485 Oct  1 15:31 invertedFile.cpp
+-rw-r--r-- 1 htrejo htrejo  1185 Oct  1 15:29 invertedFile.h
+-rw-r--r-- 1 htrejo htrejo  5859 Oct  1 15:03 hashtable.cpp
+-rw-r--r-- 1 htrejo htrejo  1209 Oct  1 15:03 hashtable.h
+-rw-r--r-- 1 htrejo htrejo  4694 Sep 29 20:07 multiplefiles-original.lex
+-rw-r--r-- 1 htrejo htrejo  2026 Sep 29 19:57 tokenizer.l
+dr-x------ 2 htrejo htrejo  4096 Sep 29 19:57 [01;34mtinyfiles[0m
+dr-x------ 2 htrejo htrejo 36864 Sep 29 19:57 [01;34mfiles[0m
+[?2004h]0;htrejo@turing: ~/HW3Pt2[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt2[00m$ exit
+[?2004lexit
+
+Script done on 2026-10-01 16:45:30-05:00 [COMMAND_EXIT_CODE="0"]

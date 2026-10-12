@@ -1,0 +1,41 @@
+Script started on 2026-10-11 21:43:16-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="120" LINES="30"]
+[?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ [7m./hw3pt3.sh tinyfiles tinyoutput[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./hw3pt3.sh tinyfiles tinyoutput
+[?2004l
+Processing file tinyfiles/2.html
+Total tokens in document: 8
+Unique tokens in document: 6
+Collisions: 0, Used: 6, Lookups: 0
+
+Processing file tinyfiles/0.html
+Total tokens in document: 4
+Unique tokens in document: 4
+Collisions: 0, Used: 4, Lookups: 0
+
+Processing file tinyfiles/3.html
+Total tokens in document: 3
+Unique tokens in document: 3
+Collisions: 0, Used: 3, Lookups: 0
+
+Processing file tinyfiles/1.html
+Total tokens in document: 5
+Unique tokens in document: 4
+Collisions: 0, Used: 4, Lookups: 0
+Collection unique tokens: 10
+
+Collection total tokens: 20
+Done tokenizing.
+[?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ [7mls -lt multiplefiles.lex hashtable.cpp hashtable.h invertedFile.cpp invertedFile.h hw3pt3.sh dic[27m[7mt[27m[7m.txt post.txt map.txt config.txt[27m[Als -lt multiplefiles.lex hashtable.cpp hashtable.h invertedFile.cpp invertedFile.h hw3pt3.sh dict.txt post.txt map.txt config.txt
+[?2004l-rw-r--r-- 1 htrejo htrejo    7 Oct 11 21:43 config.txt
+-rw-r--r-- 1 htrejo htrejo   81 Oct 11 21:43 dict.txt
+-rw-r--r-- 1 htrejo htrejo  140 Oct 11 21:43 post.txt
+-rw-r--r-- 1 htrejo htrejo  124 Oct 11 21:43 map.txt
+-rwxr-xr-x 1 htrejo htrejo  358 Oct 11 21:42 [0m[01;32mhw3pt3.sh[0m
+-rw-r--r-- 1 htrejo htrejo 9413 Oct 11 21:34 multiplefiles.lex
+-rw-r--r-- 1 htrejo htrejo 4485 Oct 11 19:46 invertedFile.cpp
+-rw-r--r-- 1 htrejo htrejo 1185 Oct 11 19:46 invertedFile.h
+-rw-r--r-- 1 htrejo htrejo 1209 Oct 11 19:46 hashtable.h
+-rw-r--r-- 1 htrejo htrejo 5859 Oct 11 19:46 hashtable.cpp
+[?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ exit
+[?2004lexit
+
+Script done on 2026-10-11 21:43:35-05:00 [COMMAND_EXIT_CODE="0"]

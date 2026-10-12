@@ -1,0 +1,20 @@
+# Large datasets
+/files/
+/largeoutput/
+/test901/
+/test901output/
+
+# Generated tokenizer output
+/tinyoutput/
+lex.yy.c
+multiplefiles
+*.o
+
+# Logs
+*.log
+
+# Generated index files
+dict.txt
+post.txt
+map.txt
+config.txt
