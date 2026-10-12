@@ -35,7 +35,6 @@ map<string, vector<pair<int, float>>> Postings;
 
 int DocumentTotalTokens = 0;
 int CollectionTotalTokens = 0;
-string CurrentOutFilename;
 
 #undef yywrap            // safety measure in case using old flex 
 
@@ -70,26 +69,6 @@ void ProcessToken(char *token)
     CollectionTotalTokens++;
 }
 
-// Example function definition used by a lex rule
-// You probably don't want to do these couts in general
-// but okay for debugging a few small input files
-void DowncaseAndPrint (const char Str[])
-{
-char Ch;
-
-   for (int i=0; i < (int)strlen(Str); i++)
-   {
-      if ('A' <= Str[i] && Str[i] <= 'Z')
-      {
-         Ch = (char) ('a' + Str[i] - 'A');
-         fprintf (yyout, "%c", Ch); 
-      }
-      else
-         fprintf (yyout, "%c", Str[i]); 
-   }
-   fprintf (yyout, "\n"); 
-}
-
 
 void ProcessDocumentHashtable()
 {
@@ -115,7 +94,6 @@ void ProcessDocumentHashtable()
         }
    }
 
-   DocumentHT->Print(CurrentOutFilename.c_str());
 
    delete DocumentHT;
    DocumentHT = NULL;
@@ -248,7 +226,6 @@ https?:\/\/[A-Za-z0-9.\/_?=&%#:+~-]+    {
 DIR *InputDirPtr = NULL;
 string InDirname;
 string OutDirname;
-bool OutputFileIsOpen = false;
 
 
 // This is called once per file.
@@ -256,7 +233,6 @@ int yywrap()
 {
 struct dirent* InputDirEntryPtr;
 string InFilename;
-string OutFilename;
 
    // if there was an input file open 
    // close it to get ready for the next file 
@@ -266,14 +242,6 @@ string OutFilename;
       yyin = NULL;
       //***  Just closed the file
       ProcessDocumentHashtable();
-   }
-
-   // if there was an output file open
-   // close it to get ready for the next file 
-   if (OutputFileIsOpen)
-   {
-      fclose (yyout);
-      OutputFileIsOpen = false;
    }
 
    // skip over the hidden filenames that begin with dot
@@ -300,18 +268,6 @@ string OutFilename;
       if(yyin == NULL) 
          perror(InFilename.c_str());
 
-//   Only needed if doing Multiway Merge (creates temporary token files)
-
-      // open a matching output file and set it to yyout
-      OutFilename = OutDirname + '/' + InputDirEntryPtr->d_name;
-      CurrentOutFilename = OutFilename;
-      yyout = fopen (OutFilename.c_str(), "w");
-
-      // if file open failed, print an error
-      if(yyout == NULL) 
-         perror(OutFilename.c_str());
-      else
-          OutputFileIsOpen = true;
    }
    // if yyin is NULL, return 1, else return 0
    return (yyin==NULL);
@@ -334,7 +290,11 @@ int main(int argc, char **argv)
 
    // open the input directory
    if (!InputDirPtr)
-      cerr << "Unable to open input directory: " << InDirname << endl;
+    {
+        cerr << "Unable to open input directory: " << InDirname << endl;
+        delete CollectionHT;
+        return 1;
+    }
    else
    {
       // open or create the output directory

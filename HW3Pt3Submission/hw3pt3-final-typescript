@@ -1,35 +1,22 @@
-Script started on 2026-10-12 17:16:48-05:00 [TERM="xterm-256color" TTY="/dev/pts/19" COLUMNS="120" LINES="30"]
-[?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ [7m./hw3pt3.sh tinyfiles tinyoutput[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./hw3pt3.sh tinyfiles tinyoutput
+Script started on 2026-10-12 17:46:02-05:00 [TERM="xterm-256color" TTY="/dev/pts/19" COLUMNS="120" LINES="30"]
+[?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ [7m./hw3pt3.sh htmltest typescript-test[27m
+[7mcat typescript-test/config.txt[27m
+[7mls typescript-test[27m[A[A]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ ./hw3pt3.sh htmltest typescript-test
+cat typescript-test/config.txt
+ls typescript-test
 [?2004l
-Processing file tinyfiles/2.html
-Total tokens in document: 8
+Processing file htmltest/test.html
+Total tokens in document: 6
 Unique tokens in document: 6
-Collisions: 0, Used: 6, Lookups: 0
+Collection unique tokens: 6
 
-Processing file tinyfiles/0.html
-Total tokens in document: 4
-Unique tokens in document: 4
-Collisions: 0, Used: 4, Lookups: 0
-
-Processing file tinyfiles/3.html
-Total tokens in document: 3
-Unique tokens in document: 3
-Collisions: 0, Used: 3, Lookups: 0
-
-Processing file tinyfiles/1.html
-Total tokens in document: 5
-Unique tokens in document: 4
-Collisions: 0, Used: 4, Lookups: 0
-Collection unique tokens: 10
-
-Collection total tokens: 20
+Collection total tokens: 6
 Done tokenizing.
-[?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ [7mls -lt tinyoutput/{dict,post,map,config}.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -lt tinyoutput/{dict,post,map,config}.txt
-[?2004l-rw-r--r-- 1 htrejo htrejo      12 Oct 12 17:16 tinyoutput/config.txt
--rw-r--r-- 1 htrejo htrejo 8100243 Oct 12 17:16 tinyoutput/dict.txt
--rw-r--r-- 1 htrejo htrejo     140 Oct 12 17:16 tinyoutput/post.txt
--rw-r--r-- 1 htrejo htrejo     124 Oct 12 17:16 tinyoutput/map.txt
+300009
+0
+1
+config.txt  dict.txt  map.txt  post.txt
 [?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ [7mexit[27mexit
 [?2004lexit
 
-Script done on 2026-10-12 17:17:02-05:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2026-10-12 17:46:10-05:00 [COMMAND_EXIT_CODE="0"]

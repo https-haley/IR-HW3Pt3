@@ -1,4 +1,4 @@
-DICTIONARY - FIRST 30
+===== FIRST 30 LINES OF dict.txt =====
                   0      0
        castles    9      0
                   0      0
@@ -29,7 +29,7 @@ DICTIONARY - FIRST 30
      executing    7     11
                   0      0
        strayed   12     18
-DICTIONARY - LAST 30
+===== LAST 30 LINES OF dict.txt =====
                   0      0
                   0      0
                   0      0
@@ -60,7 +60,7 @@ DICTIONARY - LAST 30
                   0      0
                   0      0
                   0      0
-POSTINGS - FIRST 30
+===== FIRST 30 LINES OF post.txt =====
   23        1
  688        1
  741        2
@@ -91,7 +91,7 @@ POSTINGS - FIRST 30
 1003        1
 1065        1
 1120        3
-POSTINGS - LAST 30
+===== LAST 30 LINES OF post.txt =====
 1146        1
   85        1
  979        1
@@ -122,7 +122,7 @@ POSTINGS - LAST 30
 1065        1
 1104        2
 1120        6
-MAP - FIRST 30
+===== FIRST 30 LINES OF map.txt =====
               files/uci_8.html
             files/uark_17.html
        files/princeton_27.html
@@ -153,7 +153,7 @@ MAP - FIRST 30
           files/gatech_26.html
        files/washington_1.html
              files/umd_13.html
-MAP - LAST 30
+===== LAST 30 LINES OF map.txt =====
        files/vanderbilt_1.html
              files/cmu_10.html
              files/jhu_12.html
