@@ -181,11 +181,18 @@ invertedFile::invertedFile()
     configFilename = "config.txt";
 }
 
-bool invertedFile::openForWrite()
+bool invertedFile::openForWrite(string outputDir)
 {
-    bool mapOpened = map.openForWrite("map.txt");
-    bool dictOpened = dict.openForWrite("dict.txt");
-    bool postOpened = post.openForWrite("post.txt");
+    if (!outputDir.empty() && outputDir.back() != '/')
+    {
+        outputDir += "/";
+    }
+
+    bool mapOpened = map.openForWrite(outputDir + "map.txt");
+    bool dictOpened = dict.openForWrite(outputDir + "dict.txt");
+    bool postOpened = post.openForWrite(outputDir + "post.txt");
+
+    configFilename = outputDir + "config.txt";
 
     return mapOpened && dictOpened && postOpened;
 }

@@ -122,25 +122,41 @@ void ProcessDocumentHashtable()
 }
 void WriteInvertedIndex()
 {
-   int start = 0;
+    int start = 0;
+    string term;
+    int documentFrequency;
 
-   for (auto it = Postings.begin(); it != Postings.end(); it++)
-   {
-      string term = it->first;
-      vector<pair<int, float>> &documents = it->second;
+    // Go through the global hash table in bucket order
+    for (unsigned long i = 0; i < CollectionHT->GetSize(); i++)
+    {
+        if (CollectionHT->GetEntry(i, term, documentFrequency))
+        {
+            // Remove terms that appear in only one document
+            if (documentFrequency <= 1)
+            {
+                InvFile.writeDictRecord("", 0, 0);
+                continue;
+            }
 
-      // Ignore words appearing in only one document
-      if (documents.size() <= 1)
-         continue;
+            // Write the dictionary record for this bucket
+            InvFile.writeDictRecord(term, documentFrequency, start);
 
-      InvFile.writeDictRecord(term, documents.size(), start);
+            // Write the postings for this term
+            vector<pair<int, float>> &documents = Postings[term];
 
-      for (unsigned int i = 0; i < documents.size(); i++)
-      {
-         InvFile.writePostRecord(documents[i].first, documents[i].second);
-         start++;
-      }
-   }
+            for (unsigned int j = 0; j < documents.size(); j++)
+            {
+                InvFile.writePostRecord(documents[j].first,
+                                        documents[j].second);
+                start++;
+            }
+        }
+        else
+        {
+            // Keep an empty record for an unused bucket
+            InvFile.writeDictRecord("", 0, 0);
+        }
+    }
 }
 
 %}
@@ -148,6 +164,7 @@ void WriteInvertedIndex()
 %x HREF
 %x SCRIPT
 %x STYLE
+%x COMMENT
 
 /*----------------------------------------------------------*/
 /*Section of code which specifies lex substitution patterns */
@@ -155,24 +172,37 @@ void WriteInvertedIndex()
 
 
 %%
-    /* Javascript rules */
-<INITIAL>"<script"[^>]*">"    { BEGIN(SCRIPT); }
+    /* Ignore JavaScript content */
+<INITIAL>"<"[Ss][Cc][Rr][Ii][Pp][Tt]([ \t\r\n][^>]*)?">" {
+    BEGIN(SCRIPT);
+}
 
-<SCRIPT>"</script>"           { BEGIN(INITIAL); }
-    /* Ignore all javascript chars */
-<SCRIPT>.                     ;
-<SCRIPT>\n                    ;
+<SCRIPT>"</"[Ss][Cc][Rr][Ii][Pp][Tt][ \t\r\n]*">" {
+    BEGIN(INITIAL);
+}
 
-    /* CSS rules */
-<INITIAL>"<style"[^>]*">"     { BEGIN(STYLE); }
+<SCRIPT>.     ;
+<SCRIPT>\n    ;
 
-<STYLE>"</style>"             { BEGIN(INITIAL); }
-    /* Ignore all CSS chars */
-<STYLE>.                      ;
-<STYLE>\n                     ;
+    /* Ignore CSS content */
+<INITIAL>"<"[Ss][Tt][Yy][Ll][Ee]([ \t\r\n][^>]*)?">" {
+    BEGIN(STYLE);
+}
 
+<STYLE>"</"[Ss][Tt][Yy][Ll][Ee][ \t\r\n]*">" {
+    BEGIN(INITIAL);
+}
+
+<STYLE>.     ;
+<STYLE>\n    ;
 
     /* HTML Rules */
+    /* Ignore HTML comments, including multiline comments */
+<INITIAL>"<!--"     { BEGIN(COMMENT); }
+
+<COMMENT>"-->"      { BEGIN(INITIAL); }
+<COMMENT>.          ;
+<COMMENT>\n         ;
 <INITIAL>"<"       { BEGIN(HTML); }
 
 <HTML>[Hh][Rr][Ee][Ff][ \t\r\n]*=[ \t\r\n]*[\"\']    { BEGIN(HREF); }
@@ -291,7 +321,6 @@ int main(int argc, char **argv)
 {
     DIR *OutputDirPtr = NULL;
     CollectionHT = new HashTable(COLLECTION_HT_SIZE);
-    InvFile.openForWrite();
 
    if (argc != 3)
    {
@@ -311,10 +340,20 @@ int main(int argc, char **argv)
       // open or create the output directory
       OutputDirPtr = opendir (OutDirname.c_str());
       if (!OutputDirPtr)
-      {
-         string Command = "mkdir -p "+ OutDirname;
-         system (Command.c_str());
-      }   
+        {
+        string Command = "mkdir -p " + OutDirname;
+        system(Command.c_str());
+        }
+        else
+        {
+        closedir(OutputDirPtr);
+        }
+
+        if (!InvFile.openForWrite(OutDirname))
+        {
+        cerr << "Unable to create index files in: " << OutDirname << endl;
+        return 1;
+        }  
 
       // initialize the input and output file pointers
       yyin = NULL;
@@ -340,7 +379,7 @@ int main(int argc, char **argv)
 
       // close the input and output directories
       (void) closedir (InputDirPtr);
-      (void) closedir (OutputDirPtr);
+
    }
     cout << "Done tokenizing." << endl;
     WriteInvertedIndex();

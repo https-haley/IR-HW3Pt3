@@ -56,7 +56,7 @@ private:
 public:
     invertedFile();
 
-    bool openForWrite();
+    bool openForWrite(string outputDir);
 
     bool writeMapRecord(string filename);
     bool writeDictRecord(string term, int numDocs, int start);

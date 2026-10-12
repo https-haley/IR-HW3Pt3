@@ -1,0 +1,186 @@
+DICTIONARY - FIRST 30
+                  0      0
+       castles    9      0
+                  0      0
+    inveigling    2      9
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+     executing    7     11
+                  0      0
+       strayed   12     18
+DICTIONARY - LAST 30
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+     pulmonary    6 854520
+                  0      0
+       castled    2 854526
+                  0      0
+                  0      0
+       execute   12 854528
+     bantering    2 854540
+                  0      0
+                  0      0
+        castle   27 854542
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+                  0      0
+POSTINGS - FIRST 30
+  23        1
+ 688        1
+ 741        2
+ 820        1
+ 866        1
+ 875        1
+ 986        1
+1003        4
+1120        2
+ 251        1
+ 820        1
+  23        1
+ 454        2
+ 546        2
+ 555        1
+ 820        1
+1003        1
+1065        1
+  85        1
+ 254        1
+ 286        1
+ 666        1
+ 820        2
+ 822        1
+ 875        1
+ 887        1
+ 979        1
+1003        1
+1065        1
+1120        3
+POSTINGS - LAST 30
+1146        1
+  85        1
+ 979        1
+  23       49
+  85        2
+ 170        2
+ 284        3
+ 286        7
+ 328        2
+ 454        1
+ 464        1
+ 555        4
+ 666        8
+ 715        1
+ 721        1
+ 741        8
+ 770        1
+ 787        1
+ 820        2
+ 822        3
+ 866        9
+ 875        1
+ 887        2
+ 979        2
+ 986        7
+ 987        7
+1003       17
+1065        1
+1104        2
+1120        6
+MAP - FIRST 30
+              files/uci_8.html
+            files/uark_17.html
+       files/princeton_27.html
+             files/mit_19.html
+            files/wisc_18.html
+              files/osu_6.html
+        files/colorado_28.html
+          files/gatech_24.html
+         files/virginia_4.html
+              files/cmu_2.html
+        files/rochester_3.html
+             files/msu_27.html
+              files/umn_2.html
+          files/harvard_4.html
+            files/wisc_27.html
+         files/arizona_19.html
+             files/ucsd_9.html
+             files/msu_13.html
+             files/yale_2.html
+       files/rochester_25.html
+             files/msu_15.html
+            files/pitt_17.html
+             files/psu_17.html
+                files/901.html
+           files/purdue_2.html
+             files/usc_10.html
+          files/utexas_30.html
+          files/gatech_26.html
+       files/washington_1.html
+             files/umd_13.html
+MAP - LAST 30
+       files/vanderbilt_1.html
+             files/cmu_10.html
+             files/jhu_12.html
+             files/uci_17.html
+            files/wisc_21.html
+             files/jhu_16.html
+           files/brown_30.html
+              files/msu_6.html
+            files/wustl_1.html
+              files/osu_5.html
+             files/umn_16.html
+         files/cornell_12.html
+            files/umich_6.html
+          files/gatech_15.html
+           files/utexas_2.html
+         files/caltech_20.html
+             files/msu_17.html
+          files/caltech_1.html
+             files/msu_19.html
+          files/gatech_19.html
+    files/northwestern_28.html
+         files/stanford_5.html
+       files/washington_2.html
+           files/upenn_13.html
+        files/colorado_29.html
+          files/utexas_10.html
+      files/washington_27.html
+         files/illinois_5.html
+           files/brown_15.html
+              files/osu_2.html
