@@ -257,7 +257,7 @@ string InFilename;
       DocumentHT = new HashTable(DOCUMENT_HT_SIZE);
       DocumentTotalTokens = 0;
       InFilename = InDirname + '/' + InputDirEntryPtr->d_name;
-      InvFile.writeMapRecord(InFilename);
+      InvFile.writeMapRecord(InputDirEntryPtr->d_name);
       CurrentDocId++;
       // open the next file in the list as yyin
       InFilename = InDirname + '/'+ InputDirEntryPtr->d_name;
