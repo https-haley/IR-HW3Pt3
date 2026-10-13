@@ -1,22 +1,4889 @@
-Script started on 2026-10-12 17:46:02-05:00 [TERM="xterm-256color" TTY="/dev/pts/19" COLUMNS="120" LINES="30"]
-[?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ [7m./hw3pt3.sh htmltest typescript-test[27m
-[7mcat typescript-test/config.txt[27m
-[7mls typescript-test[27m[A[A]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ ./hw3pt3.sh htmltest typescript-test
-cat typescript-test/config.txt
-ls typescript-test
+Script started on 2026-10-12 22:55:56-05:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="120" LINES="30"]
+[?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ [7m./hw3pt3.sh tinyfiles tinyoutput[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./hw3pt3.sh tinyfiles tinyoutput
 [?2004l
-Processing file htmltest/test.html
-Total tokens in document: 6
+Processing file tinyfiles/2.html
+Total tokens in document: 8
 Unique tokens in document: 6
-Collection unique tokens: 6
 
-Collection total tokens: 6
+Processing file tinyfiles/0.html
+Total tokens in document: 4
+Unique tokens in document: 4
+
+Processing file tinyfiles/3.html
+Total tokens in document: 3
+Unique tokens in document: 3
+
+Processing file tinyfiles/1.html
+Total tokens in document: 5
+Unique tokens in document: 4
+Collection unique tokens: 10
+
+Collection total tokens: 20
 Done tokenizing.
-300009
-0
-1
-config.txt  dict.txt  map.txt  post.txt
-[?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ [7mexit[27mexit
+[?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ [7m./hw3pt3.sh files finaloutput[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./hw3pt3.sh files finaloutput
+[?2004l
+Processing file files/uci_8.html
+Total tokens in document: 649
+Unique tokens in document: 383
+
+Processing file files/uark_17.html
+Total tokens in document: 480
+Unique tokens in document: 207
+
+Processing file files/princeton_27.html
+Total tokens in document: 951
+Unique tokens in document: 428
+
+Processing file files/mit_19.html
+Total tokens in document: 529
+Unique tokens in document: 322
+
+Processing file files/wisc_18.html
+Total tokens in document: 404
+Unique tokens in document: 245
+
+Processing file files/osu_6.html
+Total tokens in document: 910
+Unique tokens in document: 338
+
+Processing file files/colorado_28.html
+Total tokens in document: 3191
+Unique tokens in document: 578
+
+Processing file files/gatech_24.html
+Total tokens in document: 606
+Unique tokens in document: 334
+
+Processing file files/virginia_4.html
+Total tokens in document: 264
+Unique tokens in document: 180
+
+Processing file files/cmu_2.html
+Total tokens in document: 373
+Unique tokens in document: 190
+
+Processing file files/rochester_3.html
+Total tokens in document: 724
+Unique tokens in document: 383
+
+Processing file files/msu_27.html
+Total tokens in document: 1982
+Unique tokens in document: 927
+
+Processing file files/umn_2.html
+Total tokens in document: 677
+Unique tokens in document: 319
+
+Processing file files/harvard_4.html
+Total tokens in document: 1573
+Unique tokens in document: 628
+
+Processing file files/wisc_27.html
+Total tokens in document: 557
+Unique tokens in document: 331
+
+Processing file files/arizona_19.html
+Total tokens in document: 835
+Unique tokens in document: 347
+
+Processing file files/ucsd_9.html
+Total tokens in document: 1351
+Unique tokens in document: 585
+
+Processing file files/msu_13.html
+Total tokens in document: 1375
+Unique tokens in document: 529
+
+Processing file files/yale_2.html
+Total tokens in document: 821
+Unique tokens in document: 432
+
+Processing file files/rochester_25.html
+Total tokens in document: 1425
+Unique tokens in document: 584
+
+Processing file files/msu_15.html
+Total tokens in document: 5640
+Unique tokens in document: 1368
+
+Processing file files/pitt_17.html
+Total tokens in document: 734
+Unique tokens in document: 333
+
+Processing file files/psu_17.html
+Total tokens in document: 1019
+Unique tokens in document: 419
+
+Processing file files/901.html
+Total tokens in document: 110044
+Unique tokens in document: 7744
+
+Processing file files/purdue_2.html
+Total tokens in document: 479
+Unique tokens in document: 227
+
+Processing file files/usc_10.html
+Total tokens in document: 1799
+Unique tokens in document: 686
+
+Processing file files/utexas_30.html
+Total tokens in document: 886
+Unique tokens in document: 456
+
+Processing file files/gatech_26.html
+Total tokens in document: 909
+Unique tokens in document: 469
+
+Processing file files/washington_1.html
+Total tokens in document: 579
+Unique tokens in document: 304
+
+Processing file files/umd_13.html
+Total tokens in document: 1661
+Unique tokens in document: 735
+
+Processing file files/purdue_22.html
+Total tokens in document: 415
+Unique tokens in document: 182
+
+Processing file files/arizona_29.html
+Total tokens in document: 0
+Unique tokens in document: 0
+
+Processing file files/cmu_27.html
+Total tokens in document: 1646
+Unique tokens in document: 724
+
+Processing file files/cmu_1.html
+Total tokens in document: 300
+Unique tokens in document: 193
+
+Processing file files/yale_11.html
+Total tokens in document: 1179
+Unique tokens in document: 515
+
+Processing file files/uark_2.html
+Total tokens in document: 2451
+Unique tokens in document: 822
+
+Processing file files/osu_25.html
+Total tokens in document: 964
+Unique tokens in document: 384
+
+Processing file files/pitt_22.html
+Total tokens in document: 664
+Unique tokens in document: 302
+
+Processing file files/osu_30.html
+Total tokens in document: 589
+Unique tokens in document: 293
+
+Processing file files/nd_4.html
+Total tokens in document: 3138
+Unique tokens in document: 1010
+
+Processing file files/virginia_6.html
+Total tokens in document: 424
+Unique tokens in document: 267
+
+Processing file files/caltech_8.html
+Total tokens in document: 912
+Unique tokens in document: 306
+
+Processing file files/utexas_19.html
+Total tokens in document: 909
+Unique tokens in document: 493
+
+Processing file files/arizona_10.html
+Total tokens in document: 1103
+Unique tokens in document: 362
+
+Processing file files/purdue_7.html
+Total tokens in document: 549
+Unique tokens in document: 286
+
+Processing file files/virginia_7.html
+Total tokens in document: 1452
+Unique tokens in document: 543
+
+Processing file files/unc_1.html
+Total tokens in document: 1264
+Unique tokens in document: 512
+
+Processing file files/miami_3.html
+Total tokens in document: 859
+Unique tokens in document: 342
+
+Processing file files/mit_21.html
+Total tokens in document: 546
+Unique tokens in document: 306
+
+Processing file files/emory_1.html
+Total tokens in document: 777
+Unique tokens in document: 408
+
+Processing file files/mit_11.html
+Total tokens in document: 584
+Unique tokens in document: 298
+
+Processing file files/vanderbilt_28.html
+Total tokens in document: 1157
+Unique tokens in document: 529
+
+Processing file files/stanford_29.html
+Total tokens in document: 482
+Unique tokens in document: 268
+
+Processing file files/pitt_30.html
+Total tokens in document: 653
+Unique tokens in document: 303
+
+Processing file files/2.html
+Total tokens in document: 8
+Unique tokens in document: 6
+
+Processing file files/cmu_13.html
+Total tokens in document: 1333
+Unique tokens in document: 604
+
+Processing file files/virginia_23.html
+Total tokens in document: 339
+Unique tokens in document: 197
+
+Processing file files/uark_4.html
+Total tokens in document: 726
+Unique tokens in document: 324
+
+Processing file files/psu_10.html
+Total tokens in document: 1743
+Unique tokens in document: 553
+
+Processing file files/stanford_26.html
+Total tokens in document: 402
+Unique tokens in document: 227
+
+Processing file files/umich_16.html
+Total tokens in document: 516
+Unique tokens in document: 271
+
+Processing file files/pitt_16.html
+Total tokens in document: 1186
+Unique tokens in document: 508
+
+Processing file files/utexas_9.html
+Total tokens in document: 1344
+Unique tokens in document: 584
+
+Processing file files/purdue_17.html
+Total tokens in document: 716
+Unique tokens in document: 281
+
+Processing file files/mit_1.html
+Total tokens in document: 477
+Unique tokens in document: 305
+
+Processing file files/umich_12.html
+Total tokens in document: 392
+Unique tokens in document: 235
+
+Processing file files/bu_15.html
+Total tokens in document: 358
+Unique tokens in document: 174
+
+Processing file files/caltech_27.html
+Total tokens in document: 8567
+Unique tokens in document: 1369
+
+Processing file files/yale_27.html
+Total tokens in document: 1351
+Unique tokens in document: 565
+
+Processing file files/psu_3.html
+Total tokens in document: 1153
+Unique tokens in document: 391
+
+Processing file files/uark_30.html
+Total tokens in document: 937
+Unique tokens in document: 402
+
+Processing file files/bu_9.html
+Total tokens in document: 215
+Unique tokens in document: 116
+
+Processing file files/virginia_16.html
+Total tokens in document: 365
+Unique tokens in document: 229
+
+Processing file files/indiana_1.html
+Total tokens in document: 787
+Unique tokens in document: 384
+
+Processing file files/vanderbilt_4.html
+Total tokens in document: 901
+Unique tokens in document: 455
+
+Processing file files/umn_13.html
+Total tokens in document: 1017
+Unique tokens in document: 463
+
+Processing file files/colorado_21.html
+Total tokens in document: 12268
+Unique tokens in document: 2469
+
+Processing file files/pitt_2.html
+Total tokens in document: 1060
+Unique tokens in document: 431
+
+Processing file files/washington_25.html
+Total tokens in document: 1125
+Unique tokens in document: 389
+
+Processing file files/princeton_4.html
+Total tokens in document: 2537
+Unique tokens in document: 730
+
+Processing file files/utexas_14.html
+Total tokens in document: 1222
+Unique tokens in document: 457
+
+Processing file files/unc_3.html
+Total tokens in document: 838
+Unique tokens in document: 330
+
+Processing file files/ucla_23.html
+Total tokens in document: 1458
+Unique tokens in document: 611
+
+Processing file files/mit_10.html
+Total tokens in document: 425
+Unique tokens in document: 225
+
+Processing file files/unc_15.html
+Total tokens in document: 752
+Unique tokens in document: 317
+
+Processing file files/911.html
+Total tokens in document: 82545
+Unique tokens in document: 7507
+
+Processing file files/illinois_1.html
+Total tokens in document: 689
+Unique tokens in document: 374
+
+Processing file files/mit_7.html
+Total tokens in document: 1259
+Unique tokens in document: 457
+
+Processing file files/wisc_7.html
+Total tokens in document: 545
+Unique tokens in document: 328
+
+Processing file files/uci_5.html
+Total tokens in document: 740
+Unique tokens in document: 418
+
+Processing file files/ufl_14.html
+Total tokens in document: 593
+Unique tokens in document: 287
+
+Processing file files/944.html
+Total tokens in document: 14763
+Unique tokens in document: 4076
+
+Processing file files/upenn_6.html
+Total tokens in document: 522
+Unique tokens in document: 268
+
+Processing file files/purdue_11.html
+Total tokens in document: 566
+Unique tokens in document: 309
+
+Processing file files/arizona_2.html
+Total tokens in document: 1210
+Unique tokens in document: 591
+
+Processing file files/msu_29.html
+Total tokens in document: 7342
+Unique tokens in document: 1619
+
+Processing file files/vanderbilt_22.html
+Total tokens in document: 554
+Unique tokens in document: 297
+
+Processing file files/umd_17.html
+Total tokens in document: 1476
+Unique tokens in document: 699
+
+Processing file files/virginia_28.html
+Total tokens in document: 262
+Unique tokens in document: 178
+
+Processing file files/umn_19.html
+Total tokens in document: 132
+Unique tokens in document: 85
+
+Processing file files/bu_14.html
+Total tokens in document: 690
+Unique tokens in document: 310
+
+Processing file files/jhu_19.html
+Total tokens in document: 1207
+Unique tokens in document: 438
+
+Processing file files/926.html
+Total tokens in document: 3224
+Unique tokens in document: 725
+
+Processing file files/psu_11.html
+Total tokens in document: 1042
+Unique tokens in document: 367
+
+Processing file files/osu_18.html
+Total tokens in document: 1064
+Unique tokens in document: 438
+
+Processing file files/bu_3.html
+Total tokens in document: 529
+Unique tokens in document: 249
+
+Processing file files/cmu_17.html
+Total tokens in document: 11945
+Unique tokens in document: 1977
+
+Processing file files/caltech_14.html
+Total tokens in document: 1486
+Unique tokens in document: 471
+
+Processing file files/harvard_7.html
+Total tokens in document: 1178
+Unique tokens in document: 509
+
+Processing file files/osu_1.html
+Total tokens in document: 1162
+Unique tokens in document: 490
+
+Processing file files/bu_16.html
+Total tokens in document: 1273
+Unique tokens in document: 401
+
+Processing file files/ucsd_4.html
+Total tokens in document: 1286
+Unique tokens in document: 450
+
+Processing file files/pitt_6.html
+Total tokens in document: 1311
+Unique tokens in document: 466
+
+Processing file files/vanderbilt_15.html
+Total tokens in document: 744
+Unique tokens in document: 303
+
+Processing file files/cornell_26.html
+Total tokens in document: 2099
+Unique tokens in document: 717
+
+Processing file files/miami_6.html
+Total tokens in document: 1682
+Unique tokens in document: 645
+
+Processing file files/illinois_3.html
+Total tokens in document: 778
+Unique tokens in document: 389
+
+Processing file files/caltech_4.html
+Total tokens in document: 1947
+Unique tokens in document: 588
+
+Processing file files/ucla_19.html
+Total tokens in document: 1384
+Unique tokens in document: 682
+
+Processing file files/upenn_16.html
+Total tokens in document: 517
+Unique tokens in document: 216
+
+Processing file files/umn_20.html
+Total tokens in document: 702
+Unique tokens in document: 348
+
+Processing file files/rice_9.html
+Total tokens in document: 826
+Unique tokens in document: 411
+
+Processing file files/rochester_20.html
+Total tokens in document: 512
+Unique tokens in document: 216
+
+Processing file files/utexas_15.html
+Total tokens in document: 913
+Unique tokens in document: 479
+
+Processing file files/stanford_22.html
+Total tokens in document: 216
+Unique tokens in document: 138
+
+Processing file files/yale_1.html
+Total tokens in document: 1013
+Unique tokens in document: 520
+
+Processing file files/pitt_3.html
+Total tokens in document: 614
+Unique tokens in document: 276
+
+Processing file files/rochester_21.html
+Total tokens in document: 585
+Unique tokens in document: 347
+
+Processing file files/stanford_1.html
+Total tokens in document: 927
+Unique tokens in document: 486
+
+Processing file files/northwestern_15.html
+Total tokens in document: 658
+Unique tokens in document: 234
+
+Processing file files/purdue_8.html
+Total tokens in document: 687
+Unique tokens in document: 333
+
+Processing file files/msu_10.html
+Total tokens in document: 1702
+Unique tokens in document: 609
+
+Processing file files/gatech_28.html
+Total tokens in document: 612
+Unique tokens in document: 347
+
+Processing file files/colorado_1.html
+Total tokens in document: 1650
+Unique tokens in document: 437
+
+Processing file files/nd_2.html
+Total tokens in document: 771
+Unique tokens in document: 388
+
+Processing file files/rochester_30.html
+Total tokens in document: 614
+Unique tokens in document: 246
+
+Processing file files/caltech_11.html
+Total tokens in document: 869
+Unique tokens in document: 311
+
+Processing file files/mit_28.html
+Total tokens in document: 425
+Unique tokens in document: 225
+
+Processing file files/932.html
+Total tokens in document: 21907
+Unique tokens in document: 3802
+
+Processing file files/miami_1.html
+Total tokens in document: 1682
+Unique tokens in document: 645
+
+Processing file files/cornell_8.html
+Total tokens in document: 760
+Unique tokens in document: 414
+
+Processing file files/rice_12.html
+Total tokens in document: 786
+Unique tokens in document: 374
+
+Processing file files/caltech_6.html
+Total tokens in document: 1393
+Unique tokens in document: 543
+
+Processing file files/harvard_1.html
+Total tokens in document: 1900
+Unique tokens in document: 735
+
+Processing file files/osu_21.html
+Total tokens in document: 760
+Unique tokens in document: 336
+
+Processing file files/vanderbilt_16.html
+Total tokens in document: 521
+Unique tokens in document: 258
+
+Processing file files/northwestern_1.html
+Total tokens in document: 1508
+Unique tokens in document: 625
+
+Processing file files/unc_25.html
+Total tokens in document: 1498
+Unique tokens in document: 611
+
+Processing file files/arizona_22.html
+Total tokens in document: 1209
+Unique tokens in document: 533
+
+Processing file files/stanford_15.html
+Total tokens in document: 234
+Unique tokens in document: 149
+
+Processing file files/utexas_7.html
+Total tokens in document: 957
+Unique tokens in document: 505
+
+Processing file files/princeton_10.html
+Total tokens in document: 716
+Unique tokens in document: 379
+
+Processing file files/ucla_17.html
+Total tokens in document: 975
+Unique tokens in document: 503
+
+Processing file files/usc_8.html
+Total tokens in document: 2529
+Unique tokens in document: 998
+
+Processing file files/jhu_27.html
+Total tokens in document: 951
+Unique tokens in document: 345
+
+Processing file files/umd_15.html
+Total tokens in document: 1559
+Unique tokens in document: 701
+
+Processing file files/ufl_17.html
+Total tokens in document: 570
+Unique tokens in document: 315
+
+Processing file files/ucsd_7.html
+Total tokens in document: 1214
+Unique tokens in document: 490
+
+Processing file files/upenn_2.html
+Total tokens in document: 700
+Unique tokens in document: 356
+
+Processing file files/purdue_28.html
+Total tokens in document: 1076
+Unique tokens in document: 509
+
+Processing file files/pitt_7.html
+Total tokens in document: 1202
+Unique tokens in document: 569
+
+Processing file files/pitt_11.html
+Total tokens in document: 665
+Unique tokens in document: 320
+
+Processing file files/purdue_16.html
+Total tokens in document: 79
+Unique tokens in document: 59
+
+Processing file files/mit_12.html
+Total tokens in document: 820
+Unique tokens in document: 449
+
+Processing file files/virginia_12.html
+Total tokens in document: 673
+Unique tokens in document: 374
+
+Processing file files/vanderbilt_30.html
+Total tokens in document: 37
+Unique tokens in document: 29
+
+Processing file files/washington_11.html
+Total tokens in document: 679
+Unique tokens in document: 250
+
+Processing file files/colorado_2.html
+Total tokens in document: 1650
+Unique tokens in document: 437
+
+Processing file files/psu_21.html
+Total tokens in document: 1248
+Unique tokens in document: 457
+
+Processing file files/arizona_26.html
+Total tokens in document: 476
+Unique tokens in document: 258
+
+Processing file files/902.html
+Total tokens in document: 15902
+Unique tokens in document: 3942
+
+Processing file files/uark_11.html
+Total tokens in document: 944
+Unique tokens in document: 433
+
+Processing file files/osu_28.html
+Total tokens in document: 1448
+Unique tokens in document: 452
+
+Processing file files/bu_29.html
+Total tokens in document: 547
+Unique tokens in document: 235
+
+Processing file files/gatech_1.html
+Total tokens in document: 905
+Unique tokens in document: 459
+
+Processing file files/cornell_21.html
+Total tokens in document: 831
+Unique tokens in document: 410
+
+Processing file files/rice_4.html
+Total tokens in document: 643
+Unique tokens in document: 340
+
+Processing file files/wisc_15.html
+Total tokens in document: 461
+Unique tokens in document: 288
+
+Processing file files/harvard_2.html
+Total tokens in document: 1426
+Unique tokens in document: 637
+
+Processing file files/colorado_24.html
+Total tokens in document: 933
+Unique tokens in document: 444
+
+Processing file files/ufl_3.html
+Total tokens in document: 492
+Unique tokens in document: 270
+
+Processing file files/osu_14.html
+Total tokens in document: 1760
+Unique tokens in document: 752
+
+Processing file files/harvard_24.html
+Total tokens in document: 2438
+Unique tokens in document: 935
+
+Processing file files/umd_20.html
+Total tokens in document: 145
+Unique tokens in document: 86
+
+Processing file files/pitt_5.html
+Total tokens in document: 1137
+Unique tokens in document: 502
+
+Processing file files/usc_17.html
+Total tokens in document: 1670
+Unique tokens in document: 702
+
+Processing file files/arizona_4.html
+Total tokens in document: 651
+Unique tokens in document: 319
+
+Processing file files/caltech_2.html
+Total tokens in document: 877
+Unique tokens in document: 261
+
+Processing file files/umn_28.html
+Total tokens in document: 420
+Unique tokens in document: 205
+
+Processing file files/arizona_12.html
+Total tokens in document: 301
+Unique tokens in document: 173
+
+Processing file files/brown_19.html
+Total tokens in document: 712
+Unique tokens in document: 278
+
+Processing file files/cornell_17.html
+Total tokens in document: 1273
+Unique tokens in document: 459
+
+Processing file files/brown_25.html
+Total tokens in document: 648
+Unique tokens in document: 251
+
+Processing file files/utexas_12.html
+Total tokens in document: 3864
+Unique tokens in document: 1074
+
+Processing file files/nd_25.html
+Total tokens in document: 256
+Unique tokens in document: 135
+
+Processing file files/916.html
+Total tokens in document: 59808
+Unique tokens in document: 5934
+
+Processing file files/northwestern_6.html
+Total tokens in document: 557
+Unique tokens in document: 297
+
+Processing file files/stanford_10.html
+Total tokens in document: 430
+Unique tokens in document: 268
+
+Processing file files/usc_18.html
+Total tokens in document: 1280
+Unique tokens in document: 590
+
+Processing file files/ufl_7.html
+Total tokens in document: 572
+Unique tokens in document: 315
+
+Processing file files/stanford_7.html
+Total tokens in document: 372
+Unique tokens in document: 203
+
+Processing file files/purdue_23.html
+Total tokens in document: 505
+Unique tokens in document: 244
+
+Processing file files/nd_26.html
+Total tokens in document: 1506
+Unique tokens in document: 647
+
+Processing file files/gatech_4.html
+Total tokens in document: 759
+Unique tokens in document: 390
+
+Processing file files/jhu_6.html
+Total tokens in document: 968
+Unique tokens in document: 356
+
+Processing file files/arizona_1.html
+Total tokens in document: 1092
+Unique tokens in document: 480
+
+Processing file files/umn_6.html
+Total tokens in document: 1373
+Unique tokens in document: 593
+
+Processing file files/purdue_27.html
+Total tokens in document: 544
+Unique tokens in document: 287
+
+Processing file files/princeton_22.html
+Total tokens in document: 1070
+Unique tokens in document: 577
+
+Processing file files/rochester_10.html
+Total tokens in document: 826
+Unique tokens in document: 343
+
+Processing file files/jhu_2.html
+Total tokens in document: 1066
+Unique tokens in document: 407
+
+Processing file files/psu_5.html
+Total tokens in document: 1476
+Unique tokens in document: 529
+
+Processing file files/arizona_17.html
+Total tokens in document: 871
+Unique tokens in document: 357
+
+Processing file files/caltech_26.html
+Total tokens in document: 8598
+Unique tokens in document: 1375
+
+Processing file files/harvard_26.html
+Total tokens in document: 1369
+Unique tokens in document: 539
+
+Processing file files/caltech_29.html
+Total tokens in document: 2075
+Unique tokens in document: 786
+
+Processing file files/msu_25.html
+Total tokens in document: 1419
+Unique tokens in document: 540
+
+Processing file files/nd_20.html
+Total tokens in document: 1782
+Unique tokens in document: 699
+
+Processing file files/pitt_13.html
+Total tokens in document: 1911
+Unique tokens in document: 734
+
+Processing file files/utexas_6.html
+Total tokens in document: 543
+Unique tokens in document: 297
+
+Processing file files/cornell_18.html
+Total tokens in document: 1607
+Unique tokens in document: 664
+
+Processing file files/purdue_15.html
+Total tokens in document: 511
+Unique tokens in document: 277
+
+Processing file files/umn_30.html
+Total tokens in document: 987
+Unique tokens in document: 449
+
+Processing file files/939.html
+Total tokens in document: 17438
+Unique tokens in document: 4230
+
+Processing file files/caltech_9.html
+Total tokens in document: 1112
+Unique tokens in document: 411
+
+Processing file files/bu_19.html
+Total tokens in document: 810
+Unique tokens in document: 315
+
+Processing file files/jhu_5.html
+Total tokens in document: 1001
+Unique tokens in document: 366
+
+Processing file files/mit_18.html
+Total tokens in document: 477
+Unique tokens in document: 305
+
+Processing file files/usc_12.html
+Total tokens in document: 2554
+Unique tokens in document: 799
+
+Processing file files/stanford_30.html
+Total tokens in document: 581
+Unique tokens in document: 277
+
+Processing file files/umd_24.html
+Total tokens in document: 2105
+Unique tokens in document: 847
+
+Processing file files/umd_23.html
+Total tokens in document: 1661
+Unique tokens in document: 735
+
+Processing file files/princeton_12.html
+Total tokens in document: 4573
+Unique tokens in document: 1353
+
+Processing file files/purdue_9.html
+Total tokens in document: 518
+Unique tokens in document: 299
+
+Processing file files/arizona_23.html
+Total tokens in document: 565
+Unique tokens in document: 261
+
+Processing file files/bu_17.html
+Total tokens in document: 1866
+Unique tokens in document: 536
+
+Processing file files/harvard_23.html
+Total tokens in document: 111
+Unique tokens in document: 71
+
+Processing file files/arizona_15.html
+Total tokens in document: 412
+Unique tokens in document: 223
+
+Processing file files/uci_10.html
+Total tokens in document: 695
+Unique tokens in document: 395
+
+Processing file files/umd_25.html
+Total tokens in document: 3108
+Unique tokens in document: 1088
+
+Processing file files/cmu_25.html
+Total tokens in document: 907
+Unique tokens in document: 393
+
+Processing file files/rice_30.html
+Total tokens in document: 1133
+Unique tokens in document: 589
+
+Processing file files/uci_7.html
+Total tokens in document: 1181
+Unique tokens in document: 542
+
+Processing file files/uci_2.html
+Total tokens in document: 4174
+Unique tokens in document: 914
+
+Processing file files/purdue_18.html
+Total tokens in document: 444
+Unique tokens in document: 240
+
+Processing file files/unc_19.html
+Total tokens in document: 1447
+Unique tokens in document: 611
+
+Processing file files/rice_29.html
+Total tokens in document: 1909
+Unique tokens in document: 818
+
+Processing file files/usc_1.html
+Total tokens in document: 1903
+Unique tokens in document: 751
+
+Processing file files/vanderbilt_10.html
+Total tokens in document: 346
+Unique tokens in document: 214
+
+Processing file files/msu_24.html
+Total tokens in document: 1063
+Unique tokens in document: 388
+
+Processing file files/utexas_24.html
+Total tokens in document: 1486
+Unique tokens in document: 591
+
+Processing file files/927.html
+Total tokens in document: 20277
+Unique tokens in document: 3357
+
+Processing file files/northwestern_10.html
+Total tokens in document: 730
+Unique tokens in document: 283
+
+Processing file files/vanderbilt_13.html
+Total tokens in document: 592
+Unique tokens in document: 297
+
+Processing file files/933.html
+Total tokens in document: 79580
+Unique tokens in document: 7944
+
+Processing file files/upenn_20.html
+Total tokens in document: 1124
+Unique tokens in document: 427
+
+Processing file files/unc_14.html
+Total tokens in document: 1472
+Unique tokens in document: 603
+
+Processing file files/bu_7.html
+Total tokens in document: 3266
+Unique tokens in document: 1092
+
+Processing file files/gatech_9.html
+Total tokens in document: 1421
+Unique tokens in document: 636
+
+Processing file files/washington_24.html
+Total tokens in document: 871
+Unique tokens in document: 296
+
+Processing file files/umd_10.html
+Total tokens in document: 1852
+Unique tokens in document: 798
+
+Processing file files/harvard_22.html
+Total tokens in document: 1501
+Unique tokens in document: 558
+
+Processing file files/yale_29.html
+Total tokens in document: 4134
+Unique tokens in document: 575
+
+Processing file files/utexas_29.html
+Total tokens in document: 275
+Unique tokens in document: 129
+
+Processing file files/osu_24.html
+Total tokens in document: 841
+Unique tokens in document: 398
+
+Processing file files/mit_20.html
+Total tokens in document: 425
+Unique tokens in document: 225
+
+Processing file files/vanderbilt_26.html
+Total tokens in document: 1069
+Unique tokens in document: 455
+
+Processing file files/925.html
+Total tokens in document: 3324
+Unique tokens in document: 713
+
+Processing file files/harvard_28.html
+Total tokens in document: 991
+Unique tokens in document: 448
+
+Processing file files/cornell_28.html
+Total tokens in document: 9754
+Unique tokens in document: 2612
+
+Processing file files/umich_8.html
+Total tokens in document: 1336
+Unique tokens in document: 479
+
+Processing file files/colorado_30.html
+Total tokens in document: 887
+Unique tokens in document: 417
+
+Processing file files/usc_27.html
+Total tokens in document: 1660
+Unique tokens in document: 648
+
+Processing file files/brown_6.html
+Total tokens in document: 1989
+Unique tokens in document: 777
+
+Processing file files/934.html
+Total tokens in document: 17847
+Unique tokens in document: 3122
+
+Processing file files/umn_7.html
+Total tokens in document: 731
+Unique tokens in document: 351
+
+Processing file files/ucla_12.html
+Total tokens in document: 898
+Unique tokens in document: 432
+
+Processing file files/rice_17.html
+Total tokens in document: 952
+Unique tokens in document: 495
+
+Processing file files/brown_20.html
+Total tokens in document: 807
+Unique tokens in document: 278
+
+Processing file files/northwestern_18.html
+Total tokens in document: 594
+Unique tokens in document: 222
+
+Processing file files/usc_16.html
+Total tokens in document: 1462
+Unique tokens in document: 539
+
+Processing file files/ucla_3.html
+Total tokens in document: 835
+Unique tokens in document: 423
+
+Processing file files/caltech_30.html
+Total tokens in document: 795
+Unique tokens in document: 268
+
+Processing file files/osu_20.html
+Total tokens in document: 2402
+Unique tokens in document: 698
+
+Processing file files/922.html
+Total tokens in document: 6187
+Unique tokens in document: 1336
+
+Processing file files/pitt_21.html
+Total tokens in document: 774
+Unique tokens in document: 382
+
+Processing file files/909.html
+Total tokens in document: 115275
+Unique tokens in document: 9242
+
+Processing file files/cmu_26.html
+Total tokens in document: 1494
+Unique tokens in document: 543
+
+Processing file files/umn_15.html
+Total tokens in document: 128
+Unique tokens in document: 82
+
+Processing file files/rice_6.html
+Total tokens in document: 724
+Unique tokens in document: 391
+
+Processing file files/ucla_13.html
+Total tokens in document: 2144
+Unique tokens in document: 916
+
+Processing file files/psu_2.html
+Total tokens in document: 1058
+Unique tokens in document: 364
+
+Processing file files/washington_21.html
+Total tokens in document: 665
+Unique tokens in document: 287
+
+Processing file files/msu_23.html
+Total tokens in document: 986
+Unique tokens in document: 392
+
+Processing file files/arizona_9.html
+Total tokens in document: 476
+Unique tokens in document: 258
+
+Processing file files/umd_6.html
+Total tokens in document: 1559
+Unique tokens in document: 701
+
+Processing file files/uark_8.html
+Total tokens in document: 490
+Unique tokens in document: 225
+
+Processing file files/arizona_30.html
+Total tokens in document: 676
+Unique tokens in document: 349
+
+Processing file files/ucla_1.html
+Total tokens in document: 2144
+Unique tokens in document: 916
+
+Processing file files/brown_14.html
+Total tokens in document: 656
+Unique tokens in document: 242
+
+Processing file files/rochester_13.html
+Total tokens in document: 426
+Unique tokens in document: 244
+
+Processing file files/rochester_17.html
+Total tokens in document: 454
+Unique tokens in document: 254
+
+Processing file files/washington_15.html
+Total tokens in document: 627
+Unique tokens in document: 291
+
+Processing file files/uark_28.html
+Total tokens in document: 2451
+Unique tokens in document: 822
+
+Processing file files/washington_16.html
+Total tokens in document: 659
+Unique tokens in document: 219
+
+Processing file files/harvard_8.html
+Total tokens in document: 1244
+Unique tokens in document: 551
+
+Processing file files/cornell_15.html
+Total tokens in document: 706
+Unique tokens in document: 372
+
+Processing file files/wisc_19.html
+Total tokens in document: 557
+Unique tokens in document: 311
+
+Processing file files/uci_20.html
+Total tokens in document: 1485
+Unique tokens in document: 628
+
+Processing file files/psu_8.html
+Total tokens in document: 3178
+Unique tokens in document: 806
+
+Processing file files/upenn_27.html
+Total tokens in document: 158
+Unique tokens in document: 105
+
+Processing file files/upenn_9.html
+Total tokens in document: 5369
+Unique tokens in document: 1465
+
+Processing file files/wisc_11.html
+Total tokens in document: 557
+Unique tokens in document: 311
+
+Processing file files/rochester_8.html
+Total tokens in document: 1014
+Unique tokens in document: 445
+
+Processing file files/cornell_23.html
+Total tokens in document: 996
+Unique tokens in document: 484
+
+Processing file files/pitt_15.html
+Total tokens in document: 427
+Unique tokens in document: 202
+
+Processing file files/umd_7.html
+Total tokens in document: 688
+Unique tokens in document: 345
+
+Processing file files/upenn_4.html
+Total tokens in document: 868
+Unique tokens in document: 393
+
+Processing file files/bu_30.html
+Total tokens in document: 231
+Unique tokens in document: 102
+
+Processing file files/northwestern_29.html
+Total tokens in document: 1115
+Unique tokens in document: 447
+
+Processing file files/unc_21.html
+Total tokens in document: 656
+Unique tokens in document: 281
+
+Processing file files/harvard_12.html
+Total tokens in document: 561
+Unique tokens in document: 289
+
+Processing file files/unc_16.html
+Total tokens in document: 1250
+Unique tokens in document: 531
+
+Processing file files/wisc_4.html
+Total tokens in document: 468
+Unique tokens in document: 304
+
+Processing file files/washington_29.html
+Total tokens in document: 841
+Unique tokens in document: 343
+
+Processing file files/harvard_16.html
+Total tokens in document: 1398
+Unique tokens in document: 567
+
+Processing file files/vanderbilt_24.html
+Total tokens in document: 1197
+Unique tokens in document: 468
+
+Processing file files/northwestern_13.html
+Total tokens in document: 1041
+Unique tokens in document: 306
+
+Processing file files/913.html
+Total tokens in document: 18670
+Unique tokens in document: 4031
+
+Processing file files/utexas_13.html
+Total tokens in document: 2418
+Unique tokens in document: 475
+
+Processing file files/yale_19.html
+Total tokens in document: 868
+Unique tokens in document: 433
+
+Processing file files/brown_13.html
+Total tokens in document: 294
+Unique tokens in document: 156
+
+Processing file files/vanderbilt_11.html
+Total tokens in document: 9056
+Unique tokens in document: 2124
+
+Processing file files/nd_27.html
+Total tokens in document: 2781
+Unique tokens in document: 790
+
+Processing file files/brown_18.html
+Total tokens in document: 885
+Unique tokens in document: 275
+
+Processing file files/indiana_2.html
+Total tokens in document: 787
+Unique tokens in document: 384
+
+Processing file files/washington_17.html
+Total tokens in document: 1158
+Unique tokens in document: 455
+
+Processing file files/stanford_14.html
+Total tokens in document: 927
+Unique tokens in document: 486
+
+Processing file files/unc_27.html
+Total tokens in document: 1432
+Unique tokens in document: 580
+
+Processing file files/harvard_14.html
+Total tokens in document: 2164
+Unique tokens in document: 849
+
+Processing file files/gatech_23.html
+Total tokens in document: 960
+Unique tokens in document: 459
+
+Processing file files/upenn_17.html
+Total tokens in document: 1265
+Unique tokens in document: 560
+
+Processing file files/bu_4.html
+Total tokens in document: 2199
+Unique tokens in document: 629
+
+Processing file files/gatech_13.html
+Total tokens in document: 910
+Unique tokens in document: 492
+
+Processing file files/gatech_30.html
+Total tokens in document: 1005
+Unique tokens in document: 500
+
+Processing file files/uark_5.html
+Total tokens in document: 2451
+Unique tokens in document: 822
+
+Processing file files/stanford_8.html
+Total tokens in document: 2049
+Unique tokens in document: 933
+
+Processing file files/usc_2.html
+Total tokens in document: 1268
+Unique tokens in document: 545
+
+Processing file files/mit_4.html
+Total tokens in document: 166
+Unique tokens in document: 100
+
+Processing file files/uci_14.html
+Total tokens in document: 889
+Unique tokens in document: 458
+
+Processing file files/harvard_18.html
+Total tokens in document: 1900
+Unique tokens in document: 735
+
+Processing file files/unc_23.html
+Total tokens in document: 984
+Unique tokens in document: 420
+
+Processing file files/umd_27.html
+Total tokens in document: 1347
+Unique tokens in document: 655
+
+Processing file files/harvard_17.html
+Total tokens in document: 1992
+Unique tokens in document: 741
+
+Processing file files/virginia_15.html
+Total tokens in document: 238
+Unique tokens in document: 172
+
+Processing file files/bu_5.html
+Total tokens in document: 547
+Unique tokens in document: 279
+
+Processing file files/jhu_18.html
+Total tokens in document: 871
+Unique tokens in document: 290
+
+Processing file files/stanford_23.html
+Total tokens in document: 524
+Unique tokens in document: 279
+
+Processing file files/vanderbilt_19.html
+Total tokens in document: 292
+Unique tokens in document: 126
+
+Processing file files/nd_23.html
+Total tokens in document: 278
+Unique tokens in document: 145
+
+Processing file files/osu_13.html
+Total tokens in document: 623
+Unique tokens in document: 321
+
+Processing file files/arizona_25.html
+Total tokens in document: 587
+Unique tokens in document: 310
+
+Processing file files/stanford_2.html
+Total tokens in document: 935
+Unique tokens in document: 509
+
+Processing file files/miami_5.html
+Total tokens in document: 611
+Unique tokens in document: 298
+
+Processing file files/ucla_2.html
+Total tokens in document: 1116
+Unique tokens in document: 493
+
+Processing file files/virginia_3.html
+Total tokens in document: 619
+Unique tokens in document: 361
+
+Processing file files/msu_20.html
+Total tokens in document: 8794
+Unique tokens in document: 1931
+
+Processing file files/ucla_4.html
+Total tokens in document: 752
+Unique tokens in document: 425
+
+Processing file files/cmu_20.html
+Total tokens in document: 624
+Unique tokens in document: 301
+
+Processing file files/vanderbilt_18.html
+Total tokens in document: 1127
+Unique tokens in document: 443
+
+Processing file files/nd_13.html
+Total tokens in document: 866
+Unique tokens in document: 359
+
+Processing file files/cmu_29.html
+Total tokens in document: 1533
+Unique tokens in document: 663
+
+Processing file files/virginia_5.html
+Total tokens in document: 556
+Unique tokens in document: 326
+
+Processing file files/stanford_3.html
+Total tokens in document: 339
+Unique tokens in document: 200
+
+Processing file files/osu_15.html
+Total tokens in document: 1589
+Unique tokens in document: 584
+
+Processing file files/bu_6.html
+Total tokens in document: 601
+Unique tokens in document: 261
+
+Processing file files/utexas_23.html
+Total tokens in document: 228
+Unique tokens in document: 122
+
+Processing file files/illinois_4.html
+Total tokens in document: 1071
+Unique tokens in document: 518
+
+Processing file files/rice_2.html
+Total tokens in document: 877
+Unique tokens in document: 418
+
+Processing file files/yale_20.html
+Total tokens in document: 877
+Unique tokens in document: 429
+
+Processing file files/hard.html
+Total tokens in document: 28
+Unique tokens in document: 27
+
+Processing file files/bu_11.html
+Total tokens in document: 545
+Unique tokens in document: 258
+
+Processing file files/princeton_26.html
+Total tokens in document: 262
+Unique tokens in document: 153
+
+Processing file files/caltech_7.html
+Total tokens in document: 1319
+Unique tokens in document: 497
+
+Processing file files/jhu_29.html
+Total tokens in document: 931
+Unique tokens in document: 357
+
+Processing file files/unc_10.html
+Total tokens in document: 755
+Unique tokens in document: 295
+
+Processing file files/rochester_28.html
+Total tokens in document: 863
+Unique tokens in document: 350
+
+Processing file files/umich_7.html
+Total tokens in document: 1336
+Unique tokens in document: 479
+
+Processing file files/bu_2.html
+Total tokens in document: 750
+Unique tokens in document: 346
+
+Processing file files/cornell_29.html
+Total tokens in document: 4542
+Unique tokens in document: 577
+
+Processing file files/usc_4.html
+Total tokens in document: 2013
+Unique tokens in document: 735
+
+Processing file files/stanford_9.html
+Total tokens in document: 989
+Unique tokens in document: 483
+
+Processing file files/indiana_4.html
+Total tokens in document: 2229
+Unique tokens in document: 665
+
+Processing file files/917.html
+Total tokens in document: 78230
+Unique tokens in document: 5688
+
+Processing file files/umich_3.html
+Total tokens in document: 461
+Unique tokens in document: 288
+
+Processing file files/gatech_7.html
+Total tokens in document: 1006
+Unique tokens in document: 470
+
+Processing file files/colorado_3.html
+Total tokens in document: 36
+Unique tokens in document: 28
+
+Processing file files/purdue_4.html
+Total tokens in document: 473
+Unique tokens in document: 259
+
+Processing file files/psu_30.html
+Total tokens in document: 595
+Unique tokens in document: 301
+
+Processing file files/uark_3.html
+Total tokens in document: 1077
+Unique tokens in document: 500
+
+Processing file files/rice_19.html
+Total tokens in document: 570
+Unique tokens in document: 302
+
+Processing file files/umich_23.html
+Total tokens in document: 448
+Unique tokens in document: 283
+
+Processing file files/harvard_9.html
+Total tokens in document: 706
+Unique tokens in document: 339
+
+Processing file files/cmu_19.html
+Total tokens in document: 2959
+Unique tokens in document: 1052
+
+Processing file files/utexas_16.html
+Total tokens in document: 920
+Unique tokens in document: 384
+
+Processing file files/psu_14.html
+Total tokens in document: 1057
+Unique tokens in document: 363
+
+Processing file files/arizona_6.html
+Total tokens in document: 1192
+Unique tokens in document: 512
+
+Processing file files/wisc_22.html
+Total tokens in document: 446
+Unique tokens in document: 257
+
+Processing file files/psu_27.html
+Total tokens in document: 837
+Unique tokens in document: 385
+
+Processing file files/northwestern_14.html
+Total tokens in document: 1257
+Unique tokens in document: 332
+
+Processing file files/rice_18.html
+Total tokens in document: 581
+Unique tokens in document: 306
+
+Processing file files/nd_12.html
+Total tokens in document: 956
+Unique tokens in document: 437
+
+Processing file files/psu_16.html
+Total tokens in document: 1903
+Unique tokens in document: 437
+
+Processing file files/osu_9.html
+Total tokens in document: 595
+Unique tokens in document: 290
+
+Processing file files/usc_14.html
+Total tokens in document: 1881
+Unique tokens in document: 724
+
+Processing file files/msu_2.html
+Total tokens in document: 1429
+Unique tokens in document: 563
+
+Processing file files/cornell_16.html
+Total tokens in document: 764
+Unique tokens in document: 392
+
+Processing file files/umd_14.html
+Total tokens in document: 1952
+Unique tokens in document: 826
+
+Processing file files/colorado_6.html
+Total tokens in document: 2275
+Unique tokens in document: 631
+
+Processing file files/unc_17.html
+Total tokens in document: 970
+Unique tokens in document: 409
+
+Processing file files/stanford_19.html
+Total tokens in document: 591
+Unique tokens in document: 332
+
+Processing file files/unc_7.html
+Total tokens in document: 1441
+Unique tokens in document: 599
+
+Processing file files/virginia_2.html
+Total tokens in document: 689
+Unique tokens in document: 387
+
+Processing file files/illinois_9.html
+Total tokens in document: 631
+Unique tokens in document: 328
+
+Processing file files/virginia_27.html
+Total tokens in document: 578
+Unique tokens in document: 257
+
+Processing file files/usc_5.html
+Total tokens in document: 1832
+Unique tokens in document: 719
+
+Processing file files/princeton_8.html
+Total tokens in document: 399
+Unique tokens in document: 252
+
+Processing file files/cmu_22.html
+Total tokens in document: 1472
+Unique tokens in document: 442
+
+Processing file files/914.html
+Total tokens in document: 16583
+Unique tokens in document: 3789
+
+Processing file files/jhu_8.html
+Total tokens in document: 869
+Unique tokens in document: 278
+
+Processing file files/uark_15.html
+Total tokens in document: 1077
+Unique tokens in document: 500
+
+Processing file files/cmu_9.html
+Total tokens in document: 2785
+Unique tokens in document: 1024
+
+Processing file files/umn_24.html
+Total tokens in document: 130
+Unique tokens in document: 82
+
+Processing file files/rice_8.html
+Total tokens in document: 1057
+Unique tokens in document: 531
+
+Processing file files/yale_24.html
+Total tokens in document: 916
+Unique tokens in document: 390
+
+Processing file files/bu_21.html
+Total tokens in document: 1041
+Unique tokens in document: 402
+
+Processing file files/uark_7.html
+Total tokens in document: 2451
+Unique tokens in document: 822
+
+Processing file files/stanford_20.html
+Total tokens in document: 583
+Unique tokens in document: 302
+
+Processing file files/northwestern_24.html
+Total tokens in document: 118337
+Unique tokens in document: 15469
+
+Processing file files/umd_29.html
+Total tokens in document: 1283
+Unique tokens in document: 618
+
+Processing file files/wisc_5.html
+Total tokens in document: 279
+Unique tokens in document: 192
+
+Processing file files/princeton_2.html
+Total tokens in document: 741
+Unique tokens in document: 347
+
+Processing file files/princeton_7.html
+Total tokens in document: 698
+Unique tokens in document: 358
+
+Processing file files/rochester_27.html
+Total tokens in document: 412
+Unique tokens in document: 197
+
+Processing file files/ucla_16.html
+Total tokens in document: 1279
+Unique tokens in document: 642
+
+Processing file files/colorado_26.html
+Total tokens in document: 2275
+Unique tokens in document: 631
+
+Processing file files/bu_13.html
+Total tokens in document: 421
+Unique tokens in document: 212
+
+Processing file files/gatech_3.html
+Total tokens in document: 235
+Unique tokens in document: 141
+
+Processing file files/purdue_30.html
+Total tokens in document: 513
+Unique tokens in document: 274
+
+Processing file files/princeton_16.html
+Total tokens in document: 1412
+Unique tokens in document: 571
+
+Processing file files/pitt_28.html
+Total tokens in document: 1845
+Unique tokens in document: 667
+
+Processing file files/usc_22.html
+Total tokens in document: 1081
+Unique tokens in document: 467
+
+Processing file files/msu_30.html
+Total tokens in document: 4849
+Unique tokens in document: 1284
+
+Processing file files/bu_1.html
+Total tokens in document: 536
+Unique tokens in document: 289
+
+Processing file files/910.html
+Total tokens in document: 187615
+Unique tokens in document: 10172
+
+Processing file files/yale_9.html
+Total tokens in document: 816
+Unique tokens in document: 416
+
+Processing file files/upenn_10.html
+Total tokens in document: 1015
+Unique tokens in document: 446
+
+Processing file files/vanderbilt_5.html
+Total tokens in document: 126
+Unique tokens in document: 74
+
+Processing file files/umn_21.html
+Total tokens in document: 130
+Unique tokens in document: 83
+
+Processing file files/washington_18.html
+Total tokens in document: 1720
+Unique tokens in document: 681
+
+Processing file files/cmu_14.html
+Total tokens in document: 1290
+Unique tokens in document: 510
+
+Processing file files/harvard_11.html
+Total tokens in document: 530
+Unique tokens in document: 302
+
+Processing file files/rochester_16.html
+Total tokens in document: 830
+Unique tokens in document: 317
+
+Processing file files/cornell_11.html
+Total tokens in document: 454
+Unique tokens in document: 280
+
+Processing file files/nd_29.html
+Total tokens in document: 2926
+Unique tokens in document: 1096
+
+Processing file files/umn_14.html
+Total tokens in document: 130
+Unique tokens in document: 82
+
+Processing file files/virginia_14.html
+Total tokens in document: 284
+Unique tokens in document: 173
+
+Processing file files/wisc_10.html
+Total tokens in document: 2396
+Unique tokens in document: 598
+
+Processing file files/usc_7.html
+Total tokens in document: 2245
+Unique tokens in document: 889
+
+Processing file files/cmu_7.html
+Total tokens in document: 340
+Unique tokens in document: 215
+
+Processing file files/osu_27.html
+Total tokens in document: 891
+Unique tokens in document: 317
+
+Processing file files/unc_30.html
+Total tokens in document: 666
+Unique tokens in document: 278
+
+Processing file files/pitt_18.html
+Total tokens in document: 2790
+Unique tokens in document: 1081
+
+Processing file files/washington_13.html
+Total tokens in document: 889
+Unique tokens in document: 332
+
+Processing file files/906.html
+Total tokens in document: 40703
+Unique tokens in document: 4102
+
+Processing file files/upenn_11.html
+Total tokens in document: 865
+Unique tokens in document: 378
+
+Processing file files/uark_26.html
+Total tokens in document: 944
+Unique tokens in document: 433
+
+Processing file files/stanford_27.html
+Total tokens in document: 4718
+Unique tokens in document: 992
+
+Processing file files/psu_26.html
+Total tokens in document: 1816
+Unique tokens in document: 645
+
+Processing file files/rochester_18.html
+Total tokens in document: 574
+Unique tokens in document: 321
+
+Processing file files/rice_13.html
+Total tokens in document: 1161
+Unique tokens in document: 577
+
+Processing file files/wisc_6.html
+Total tokens in document: 722
+Unique tokens in document: 439
+
+Processing file files/jhu_10.html
+Total tokens in document: 1129
+Unique tokens in document: 393
+
+Processing file files/ucsd_3.html
+Total tokens in document: 6647
+Unique tokens in document: 1140
+
+Processing file files/usc_3.html
+Total tokens in document: 1392
+Unique tokens in document: 567
+
+Processing file files/brown_29.html
+Total tokens in document: 3956
+Unique tokens in document: 1130
+
+Processing file files/wisc_25.html
+Total tokens in document: 433
+Unique tokens in document: 251
+
+Processing file files/osu_17.html
+Total tokens in document: 753
+Unique tokens in document: 344
+
+Processing file files/umn_4.html
+Total tokens in document: 1907
+Unique tokens in document: 736
+
+Processing file files/northwestern_3.html
+Total tokens in document: 917
+Unique tokens in document: 315
+
+Processing file files/usc_13.html
+Total tokens in document: 1758
+Unique tokens in document: 717
+
+Processing file files/cmu_23.html
+Total tokens in document: 1889
+Unique tokens in document: 766
+
+Processing file files/ucla_28.html
+Total tokens in document: 1093
+Unique tokens in document: 533
+
+Processing file files/rochester_2.html
+Total tokens in document: 788
+Unique tokens in document: 375
+
+Processing file files/upenn_24.html
+Total tokens in document: 974
+Unique tokens in document: 455
+
+Processing file files/ufl_15.html
+Total tokens in document: 1044
+Unique tokens in document: 550
+
+Processing file files/vanderbilt_6.html
+Total tokens in document: 516
+Unique tokens in document: 242
+
+Processing file files/unc_9.html
+Total tokens in document: 1061
+Unique tokens in document: 445
+
+Processing file files/cmu_21.html
+Total tokens in document: 2170
+Unique tokens in document: 669
+
+Processing file files/msu_22.html
+Total tokens in document: 6489
+Unique tokens in document: 1529
+
+Processing file files/stanford_21.html
+Total tokens in document: 1880
+Unique tokens in document: 736
+
+Processing file files/mit_27.html
+Total tokens in document: 1061
+Unique tokens in document: 509
+
+Processing file files/purdue_26.html
+Total tokens in document: 542
+Unique tokens in document: 303
+
+Processing file files/nd_19.html
+Total tokens in document: 427
+Unique tokens in document: 225
+
+Processing file files/ucla_21.html
+Total tokens in document: 951
+Unique tokens in document: 489
+
+Processing file files/northwestern_5.html
+Total tokens in document: 556
+Unique tokens in document: 198
+
+Processing file files/brown_27.html
+Total tokens in document: 915
+Unique tokens in document: 430
+
+Processing file files/cornell_25.html
+Total tokens in document: 1391
+Unique tokens in document: 573
+
+Processing file files/gatech_18.html
+Total tokens in document: 612
+Unique tokens in document: 341
+
+Processing file files/msu_26.html
+Total tokens in document: 5134
+Unique tokens in document: 1253
+
+Processing file files/northwestern_8.html
+Total tokens in document: 733
+Unique tokens in document: 268
+
+Processing file files/gatech_8.html
+Total tokens in document: 2089
+Unique tokens in document: 758
+
+Processing file files/upenn_15.html
+Total tokens in document: 571
+Unique tokens in document: 276
+
+Processing file files/yale_7.html
+Total tokens in document: 591
+Unique tokens in document: 333
+
+Processing file files/cornell_4.html
+Total tokens in document: 1273
+Unique tokens in document: 459
+
+Processing file files/colorado_13.html
+Total tokens in document: 852
+Unique tokens in document: 366
+
+Processing file files/ucla_15.html
+Total tokens in document: 1474
+Unique tokens in document: 667
+
+Processing file files/umd_16.html
+Total tokens in document: 1661
+Unique tokens in document: 735
+
+Processing file files/psu_12.html
+Total tokens in document: 1005
+Unique tokens in document: 406
+
+Processing file files/uci_11.html
+Total tokens in document: 826
+Unique tokens in document: 425
+
+Processing file files/ufl_9.html
+Total tokens in document: 1082
+Unique tokens in document: 484
+
+Processing file files/princeton_30.html
+Total tokens in document: 687
+Unique tokens in document: 358
+
+Processing file files/msu_16.html
+Total tokens in document: 101469
+Unique tokens in document: 12655
+
+Processing file files/rice_1.html
+Total tokens in document: 638
+Unique tokens in document: 341
+
+Processing file files/miami_7.html
+Total tokens in document: 1682
+Unique tokens in document: 645
+
+Processing file files/ucla_18.html
+Total tokens in document: 991
+Unique tokens in document: 507
+
+Processing file files/wisc_1.html
+Total tokens in document: 722
+Unique tokens in document: 439
+
+Processing file files/wisc_12.html
+Total tokens in document: 9042
+Unique tokens in document: 1810
+
+Processing file files/yale_10.html
+Total tokens in document: 1430
+Unique tokens in document: 651
+
+Processing file files/caltech_16.html
+Total tokens in document: 908
+Unique tokens in document: 440
+
+Processing file files/upenn_26.html
+Total tokens in document: 874
+Unique tokens in document: 406
+
+Processing file files/ufl_13.html
+Total tokens in document: 877
+Unique tokens in document: 414
+
+Processing file files/vanderbilt_29.html
+Total tokens in document: 520
+Unique tokens in document: 251
+
+Processing file files/rice_28.html
+Total tokens in document: 652
+Unique tokens in document: 357
+
+Processing file files/brown_8.html
+Total tokens in document: 505
+Unique tokens in document: 183
+
+Processing file files/cmu_16.html
+Total tokens in document: 2528
+Unique tokens in document: 938
+
+Processing file files/virginia_8.html
+Total tokens in document: 240
+Unique tokens in document: 150
+
+Processing file files/yale_22.html
+Total tokens in document: 959
+Unique tokens in document: 459
+
+Processing file files/msu_28.html
+Total tokens in document: 9484
+Unique tokens in document: 1970
+
+Processing file files/ufl_8.html
+Total tokens in document: 525
+Unique tokens in document: 286
+
+Processing file files/gatech_16.html
+Total tokens in document: 2070
+Unique tokens in document: 805
+
+Processing file files/cornell_24.html
+Total tokens in document: 831
+Unique tokens in document: 410
+
+Processing file files/princeton_15.html
+Total tokens in document: 1580
+Unique tokens in document: 687
+
+Processing file files/umich_4.html
+Total tokens in document: 334
+Unique tokens in document: 230
+
+Processing file files/colorado_22.html
+Total tokens in document: 881
+Unique tokens in document: 341
+
+Processing file files/colorado_4.html
+Total tokens in document: 703
+Unique tokens in document: 330
+
+Processing file files/930.html
+Total tokens in document: 86965
+Unique tokens in document: 7710
+
+Processing file files/uci_12.html
+Total tokens in document: 737
+Unique tokens in document: 337
+
+Processing file files/umn_11.html
+Total tokens in document: 1781
+Unique tokens in document: 649
+
+Processing file files/caltech_13.html
+Total tokens in document: 132
+Unique tokens in document: 84
+
+Processing file files/umn_12.html
+Total tokens in document: 2073
+Unique tokens in document: 753
+
+Processing file files/upenn_18.html
+Total tokens in document: 396
+Unique tokens in document: 198
+
+Processing file files/gatech_22.html
+Total tokens in document: 1251
+Unique tokens in document: 617
+
+Processing file files/purdue_14.html
+Total tokens in document: 647
+Unique tokens in document: 310
+
+Processing file files/upenn_23.html
+Total tokens in document: 250
+Unique tokens in document: 133
+
+Processing file files/928.html
+Total tokens in document: 131856
+Unique tokens in document: 10004
+
+Processing file files/harvard_25.html
+Total tokens in document: 2926
+Unique tokens in document: 1000
+
+Processing file files/utexas_17.html
+Total tokens in document: 853
+Unique tokens in document: 427
+
+Processing file files/cornell_9.html
+Total tokens in document: 1273
+Unique tokens in document: 459
+
+Processing file files/rice_20.html
+Total tokens in document: 1220
+Unique tokens in document: 508
+
+Processing file files/osu_8.html
+Total tokens in document: 769
+Unique tokens in document: 357
+
+Processing file files/yale_17.html
+Total tokens in document: 1535
+Unique tokens in document: 575
+
+Processing file files/virginia_29.html
+Total tokens in document: 327
+Unique tokens in document: 216
+
+Processing file files/harvard_10.html
+Total tokens in document: 1179
+Unique tokens in document: 518
+
+Processing file files/ucla_30.html
+Total tokens in document: 873
+Unique tokens in document: 474
+
+Processing file files/nd_14.html
+Total tokens in document: 476
+Unique tokens in document: 234
+
+Processing file files/illinois_6.html
+Total tokens in document: 592
+Unique tokens in document: 321
+
+Processing file files/utexas_25.html
+Total tokens in document: 253
+Unique tokens in document: 125
+
+Processing file files/cornell_10.html
+Total tokens in document: 824
+Unique tokens in document: 411
+
+Processing file files/umich_18.html
+Total tokens in document: 339
+Unique tokens in document: 236
+
+Processing file files/princeton_18.html
+Total tokens in document: 391
+Unique tokens in document: 222
+
+Processing file files/rice_25.html
+Total tokens in document: 681
+Unique tokens in document: 349
+
+Processing file files/ucla_7.html
+Total tokens in document: 791
+Unique tokens in document: 438
+
+Processing file files/osu_11.html
+Total tokens in document: 660
+Unique tokens in document: 308
+
+Processing file files/washington_19.html
+Total tokens in document: 853
+Unique tokens in document: 313
+
+Processing file files/908.html
+Total tokens in document: 75825
+Unique tokens in document: 10608
+
+Processing file files/ucsd_5.html
+Total tokens in document: 1214
+Unique tokens in document: 490
+
+Processing file files/harvard_30.html
+Total tokens in document: 4438
+Unique tokens in document: 1584
+
+Processing file files/jhu_3.html
+Total tokens in document: 909
+Unique tokens in document: 331
+
+Processing file files/brown_17.html
+Total tokens in document: 1119
+Unique tokens in document: 371
+
+Processing file files/948.html
+Total tokens in document: 51741
+Unique tokens in document: 6813
+
+Processing file files/umn_27.html
+Total tokens in document: 128
+Unique tokens in document: 82
+
+Processing file files/colorado_18.html
+Total tokens in document: 1147
+Unique tokens in document: 463
+
+Processing file files/usc_28.html
+Total tokens in document: 1671
+Unique tokens in document: 521
+
+Processing file files/arizona_3.html
+Total tokens in document: 820
+Unique tokens in document: 416
+
+Processing file files/caltech_12.html
+Total tokens in document: 1335
+Unique tokens in document: 525
+
+Processing file files/umn_22.html
+Total tokens in document: 1194
+Unique tokens in document: 535
+
+Processing file files/cornell_3.html
+Total tokens in document: 760
+Unique tokens in document: 391
+
+Processing file files/brown_23.html
+Total tokens in document: 822
+Unique tokens in document: 267
+
+Processing file files/upenn_14.html
+Total tokens in document: 434
+Unique tokens in document: 228
+
+Processing file files/ufl_6.html
+Total tokens in document: 686
+Unique tokens in document: 356
+
+Processing file files/bu_12.html
+Total tokens in document: 1283
+Unique tokens in document: 448
+
+Processing file files/upenn_22.html
+Total tokens in document: 1015
+Unique tokens in document: 446
+
+Processing file files/nd_30.html
+Total tokens in document: 1569
+Unique tokens in document: 647
+
+Processing file files/wisc_24.html
+Total tokens in document: 865
+Unique tokens in document: 462
+
+Processing file files/pitt_14.html
+Total tokens in document: 1144
+Unique tokens in document: 527
+
+Processing file files/umich_17.html
+Total tokens in document: 328
+Unique tokens in document: 212
+
+Processing file files/brown_4.html
+Total tokens in document: 1468
+Unique tokens in document: 516
+
+Processing file files/bu_26.html
+Total tokens in document: 1557
+Unique tokens in document: 570
+
+Processing file files/pitt_24.html
+Total tokens in document: 749
+Unique tokens in document: 331
+
+Processing file files/brown_22.html
+Total tokens in document: 448
+Unique tokens in document: 242
+
+Processing file files/utexas_28.html
+Total tokens in document: 1517
+Unique tokens in document: 584
+
+Processing file files/illinois_2.html
+Total tokens in document: 628
+Unique tokens in document: 332
+
+Processing file files/umd_3.html
+Total tokens in document: 1335
+Unique tokens in document: 638
+
+Processing file files/ufl_22.html
+Total tokens in document: 503
+Unique tokens in document: 265
+
+Processing file files/umich_24.html
+Total tokens in document: 285
+Unique tokens in document: 202
+
+Processing file files/vanderbilt_12.html
+Total tokens in document: 811
+Unique tokens in document: 397
+
+Processing file files/wisc_16.html
+Total tokens in document: 312
+Unique tokens in document: 196
+
+Processing file files/uark_24.html
+Total tokens in document: 14547
+Unique tokens in document: 2064
+
+Processing file files/cornell_27.html
+Total tokens in document: 1106
+Unique tokens in document: 522
+
+Processing file files/pitt_19.html
+Total tokens in document: 1181
+Unique tokens in document: 531
+
+Processing file files/rice_27.html
+Total tokens in document: 483
+Unique tokens in document: 277
+
+Processing file files/colorado_7.html
+Total tokens in document: 3088
+Unique tokens in document: 1080
+
+Processing file files/cmu_3.html
+Total tokens in document: 3093
+Unique tokens in document: 958
+
+Processing file files/upenn_5.html
+Total tokens in document: 1860
+Unique tokens in document: 709
+
+Processing file files/rochester_29.html
+Total tokens in document: 499
+Unique tokens in document: 225
+
+Processing file files/uark_9.html
+Total tokens in document: 1043
+Unique tokens in document: 449
+
+Processing file files/purdue_19.html
+Total tokens in document: 1062
+Unique tokens in document: 451
+
+Processing file files/cmu_11.html
+Total tokens in document: 1094
+Unique tokens in document: 315
+
+Processing file files/nd_9.html
+Total tokens in document: 4541
+Unique tokens in document: 1390
+
+Processing file files/mit_25.html
+Total tokens in document: 1061
+Unique tokens in document: 509
+
+Processing file files/umd_9.html
+Total tokens in document: 1661
+Unique tokens in document: 735
+
+Processing file files/rochester_22.html
+Total tokens in document: 802
+Unique tokens in document: 328
+
+Processing file files/ucla_25.html
+Total tokens in document: 912
+Unique tokens in document: 466
+
+Processing file files/jhu_28.html
+Total tokens in document: 724
+Unique tokens in document: 240
+
+Processing file files/harvard_6.html
+Total tokens in document: 2216
+Unique tokens in document: 1201
+
+Processing file files/920.html
+Total tokens in document: 32965
+Unique tokens in document: 4143
+
+Processing file files/caltech_22.html
+Total tokens in document: 1344
+Unique tokens in document: 523
+
+Processing file files/caltech_28.html
+Total tokens in document: 1868
+Unique tokens in document: 593
+
+Processing file files/washington_30.html
+Total tokens in document: 1362
+Unique tokens in document: 445
+
+Processing file files/umn_23.html
+Total tokens in document: 446
+Unique tokens in document: 213
+
+Processing file files/yale_4.html
+Total tokens in document: 864
+Unique tokens in document: 425
+
+Processing file files/stanford_28.html
+Total tokens in document: 532
+Unique tokens in document: 291
+
+Processing file files/colorado_15.html
+Total tokens in document: 1403
+Unique tokens in document: 417
+
+Processing file files/rice_15.html
+Total tokens in document: 1615
+Unique tokens in document: 722
+
+Processing file files/stanford_16.html
+Total tokens in document: 1526
+Unique tokens in document: 627
+
+Processing file files/bu_23.html
+Total tokens in document: 421
+Unique tokens in document: 212
+
+Processing file files/umich_5.html
+Total tokens in document: 1152
+Unique tokens in document: 564
+
+Processing file files/uark_12.html
+Total tokens in document: 517
+Unique tokens in document: 241
+
+Processing file files/wisc_8.html
+Total tokens in document: 765
+Unique tokens in document: 426
+
+Processing file files/caltech_21.html
+Total tokens in document: 837
+Unique tokens in document: 286
+
+Processing file files/rice_10.html
+Total tokens in document: 602
+Unique tokens in document: 321
+
+Processing file files/washington_12.html
+Total tokens in document: 620
+Unique tokens in document: 316
+
+Processing file files/upenn_21.html
+Total tokens in document: 1547
+Unique tokens in document: 559
+
+Processing file files/ucla_9.html
+Total tokens in document: 864
+Unique tokens in document: 452
+
+Processing file files/psu_4.html
+Total tokens in document: 1063
+Unique tokens in document: 343
+
+Processing file files/yale_6.html
+Total tokens in document: 5513
+Unique tokens in document: 1244
+
+Processing file files/princeton_20.html
+Total tokens in document: 629
+Unique tokens in document: 332
+
+Processing file files/washington_5.html
+Total tokens in document: 2047
+Unique tokens in document: 800
+
+Processing file files/umd_5.html
+Total tokens in document: 1341
+Unique tokens in document: 614
+
+Processing file files/brown_3.html
+Total tokens in document: 1244
+Unique tokens in document: 405
+
+Processing file files/bu_18.html
+Total tokens in document: 573
+Unique tokens in document: 247
+
+Processing file files/princeton_29.html
+Total tokens in document: 1238
+Unique tokens in document: 523
+
+Processing file files/wisc_17.html
+Total tokens in document: 1177
+Unique tokens in document: 472
+
+Processing file files/brown_2.html
+Total tokens in document: 1126
+Unique tokens in document: 408
+
+Processing file files/umich_21.html
+Total tokens in document: 2031
+Unique tokens in document: 638
+
+Processing file files/rice_7.html
+Total tokens in document: 582
+Unique tokens in document: 301
+
+Processing file files/virginia_13.html
+Total tokens in document: 416
+Unique tokens in document: 260
+
+Processing file files/princeton_28.html
+Total tokens in document: 1383
+Unique tokens in document: 712
+
+Processing file files/ucla_22.html
+Total tokens in document: 1547
+Unique tokens in document: 677
+
+Processing file files/bu_10.html
+Total tokens in document: 1646
+Unique tokens in document: 624
+
+Processing file files/uark_19.html
+Total tokens in document: 1353
+Unique tokens in document: 620
+
+Processing file files/mit_29.html
+Total tokens in document: 335
+Unique tokens in document: 186
+
+Processing file files/pitt_25.html
+Total tokens in document: 632
+Unique tokens in document: 292
+
+Processing file files/wisc_29.html
+Total tokens in document: 496
+Unique tokens in document: 321
+
+Processing file files/northwestern_19.html
+Total tokens in document: 585
+Unique tokens in document: 208
+
+Processing file files/937.html
+Total tokens in document: 16106
+Unique tokens in document: 4028
+
+Processing file files/unc_13.html
+Total tokens in document: 859
+Unique tokens in document: 352
+
+Processing file files/msu_9.html
+Total tokens in document: 1409
+Unique tokens in document: 562
+
+Processing file files/cornell_30.html
+Total tokens in document: 760
+Unique tokens in document: 391
+
+Processing file files/northwestern_23.html
+Total tokens in document: 13006
+Unique tokens in document: 2543
+
+Processing file files/mit_30.html
+Total tokens in document: 209
+Unique tokens in document: 129
+
+Processing file files/vanderbilt_9.html
+Total tokens in document: 721
+Unique tokens in document: 345
+
+Processing file files/wisc_9.html
+Total tokens in document: 2837
+Unique tokens in document: 738
+
+Processing file files/upenn_29.html
+Total tokens in document: 562
+Unique tokens in document: 182
+
+Processing file files/utexas_11.html
+Total tokens in document: 1344
+Unique tokens in document: 584
+
+Processing file files/washington_4.html
+Total tokens in document: 249
+Unique tokens in document: 114
+
+Processing file files/caltech_3.html
+Total tokens in document: 1037
+Unique tokens in document: 359
+
+Processing file files/rochester_23.html
+Total tokens in document: 1031
+Unique tokens in document: 405
+
+Processing file files/jhu_9.html
+Total tokens in document: 879
+Unique tokens in document: 290
+
+Processing file files/rochester_5.html
+Total tokens in document: 525
+Unique tokens in document: 239
+
+Processing file files/unc_29.html
+Total tokens in document: 667
+Unique tokens in document: 282
+
+Processing file files/psu_22.html
+Total tokens in document: 1457
+Unique tokens in document: 469
+
+Processing file files/cmu_5.html
+Total tokens in document: 973
+Unique tokens in document: 306
+
+Processing file files/msu_14.html
+Total tokens in document: 4190
+Unique tokens in document: 1154
+
+Processing file files/uark_29.html
+Total tokens in document: 1695
+Unique tokens in document: 587
+
+Processing file files/usc_30.html
+Total tokens in document: 1482
+Unique tokens in document: 584
+
+Processing file files/purdue_25.html
+Total tokens in document: 341
+Unique tokens in document: 197
+
+Processing file files/918.html
+Total tokens in document: 47320
+Unique tokens in document: 4075
+
+Processing file files/ucla_24.html
+Total tokens in document: 1105
+Unique tokens in document: 505
+
+Processing file files/caltech_17.html
+Total tokens in document: 759
+Unique tokens in document: 243
+
+Processing file files/ucla_20.html
+Total tokens in document: 1114
+Unique tokens in document: 567
+
+Processing file files/umn_29.html
+Total tokens in document: 705
+Unique tokens in document: 323
+
+Processing file files/umich_13.html
+Total tokens in document: 464
+Unique tokens in document: 279
+
+Processing file files/ucla_10.html
+Total tokens in document: 1233
+Unique tokens in document: 574
+
+Processing file files/washington_20.html
+Total tokens in document: 1158
+Unique tokens in document: 455
+
+Processing file files/ucla_14.html
+Total tokens in document: 1156
+Unique tokens in document: 578
+
+Processing file files/jhu_24.html
+Total tokens in document: 960
+Unique tokens in document: 358
+
+Processing file files/virginia_1.html
+Total tokens in document: 510
+Unique tokens in document: 271
+
+Processing file files/949.html
+Total tokens in document: 80625
+Unique tokens in document: 7958
+
+Processing file files/jhu_22.html
+Total tokens in document: 774
+Unique tokens in document: 256
+
+Processing file files/ucsd_2.html
+Total tokens in document: 1351
+Unique tokens in document: 585
+
+Processing file files/purdue_5.html
+Total tokens in document: 877
+Unique tokens in document: 416
+
+Processing file files/northwestern_9.html
+Total tokens in document: 602
+Unique tokens in document: 220
+
+Processing file files/umich_15.html
+Total tokens in document: 163
+Unique tokens in document: 129
+
+Processing file files/umn_3.html
+Total tokens in document: 709
+Unique tokens in document: 348
+
+Processing file files/unc_20.html
+Total tokens in document: 860
+Unique tokens in document: 372
+
+Processing file files/princeton_17.html
+Total tokens in document: 1452
+Unique tokens in document: 505
+
+Processing file files/harvard_21.html
+Total tokens in document: 1270
+Unique tokens in document: 508
+
+Processing file files/cmu_15.html
+Total tokens in document: 2515
+Unique tokens in document: 944
+
+Processing file files/brown_9.html
+Total tokens in document: 5689
+Unique tokens in document: 1085
+
+Processing file files/psu_19.html
+Total tokens in document: 365
+Unique tokens in document: 194
+
+Processing file files/princeton_6.html
+Total tokens in document: 786
+Unique tokens in document: 375
+
+Processing file files/caltech_19.html
+Total tokens in document: 129
+Unique tokens in document: 82
+
+Processing file files/psu_6.html
+Total tokens in document: 1390
+Unique tokens in document: 505
+
+Processing file files/936.html
+Total tokens in document: 16147
+Unique tokens in document: 3852
+
+Processing file files/colorado_12.html
+Total tokens in document: 1996
+Unique tokens in document: 510
+
+Processing file files/yale_18.html
+Total tokens in document: 868
+Unique tokens in document: 426
+
+Processing file files/umich_22.html
+Total tokens in document: 286
+Unique tokens in document: 196
+
+Processing file files/virginia_17.html
+Total tokens in document: 510
+Unique tokens in document: 271
+
+Processing file files/nd_21.html
+Total tokens in document: 1207
+Unique tokens in document: 487
+
+Processing file files/921.html
+Total tokens in document: 72489
+Unique tokens in document: 6683
+
+Processing file files/uci_9.html
+Total tokens in document: 535
+Unique tokens in document: 312
+
+Processing file files/vanderbilt_20.html
+Total tokens in document: 437
+Unique tokens in document: 221
+
+Processing file files/umn_5.html
+Total tokens in document: 420
+Unique tokens in document: 205
+
+Processing file files/945.html
+Total tokens in document: 85271
+Unique tokens in document: 7611
+
+Processing file files/cmu_30.html
+Total tokens in document: 9403
+Unique tokens in document: 2198
+
+Processing file files/yale_5.html
+Total tokens in document: 959
+Unique tokens in document: 459
+
+Processing file files/upenn_3.html
+Total tokens in document: 812
+Unique tokens in document: 357
+
+Processing file files/cornell_7.html
+Total tokens in document: 742
+Unique tokens in document: 380
+
+Processing file files/unc_22.html
+Total tokens in document: 1390
+Unique tokens in document: 578
+
+Processing file files/princeton_24.html
+Total tokens in document: 1936
+Unique tokens in document: 742
+
+Processing file files/northwestern_11.html
+Total tokens in document: 447
+Unique tokens in document: 160
+
+Processing file files/cornell_2.html
+Total tokens in document: 1607
+Unique tokens in document: 664
+
+Processing file files/rice_21.html
+Total tokens in document: 528
+Unique tokens in document: 300
+
+Processing file files/utexas_1.html
+Total tokens in document: 1199
+Unique tokens in document: 578
+
+Processing file files/stanford_18.html
+Total tokens in document: 772
+Unique tokens in document: 405
+
+Processing file files/ufl_10.html
+Total tokens in document: 1297
+Unique tokens in document: 579
+
+Processing file files/rice_26.html
+Total tokens in document: 847
+Unique tokens in document: 404
+
+Processing file files/gatech_21.html
+Total tokens in document: 683
+Unique tokens in document: 373
+
+Processing file files/umich_1.html
+Total tokens in document: 866
+Unique tokens in document: 485
+
+Processing file files/929.html
+Total tokens in document: 127775
+Unique tokens in document: 9450
+
+Processing file files/miami_4.html
+Total tokens in document: 0
+Unique tokens in document: 0
+
+Processing file files/princeton_14.html
+Total tokens in document: 1383
+Unique tokens in document: 712
+
+Processing file files/rochester_24.html
+Total tokens in document: 8886
+Unique tokens in document: 1752
+
+Processing file files/arizona_27.html
+Total tokens in document: 1356
+Unique tokens in document: 593
+
+Processing file files/harvard_15.html
+Total tokens in document: 1773
+Unique tokens in document: 751
+
+Processing file files/mit_9.html
+Total tokens in document: 199
+Unique tokens in document: 115
+
+Processing file files/washington_10.html
+Total tokens in document: 2479
+Unique tokens in document: 1034
+
+Processing file files/psu_18.html
+Total tokens in document: 774
+Unique tokens in document: 380
+
+Processing file files/princeton_25.html
+Total tokens in document: 798
+Unique tokens in document: 361
+
+Processing file files/umd_30.html
+Total tokens in document: 1952
+Unique tokens in document: 826
+
+Processing file files/cornell_20.html
+Total tokens in document: 1346
+Unique tokens in document: 637
+
+Processing file files/osu_4.html
+Total tokens in document: 886
+Unique tokens in document: 406
+
+Processing file files/wisc_20.html
+Total tokens in document: 607
+Unique tokens in document: 361
+
+Processing file files/rochester_15.html
+Total tokens in document: 946
+Unique tokens in document: 403
+
+Processing file files/stanford_25.html
+Total tokens in document: 311
+Unique tokens in document: 203
+
+Processing file files/915.html
+Total tokens in document: 76964
+Unique tokens in document: 7715
+
+Processing file files/washington_14.html
+Total tokens in document: 2159
+Unique tokens in document: 730
+
+Processing file files/umd_28.html
+Total tokens in document: 1661
+Unique tokens in document: 735
+
+Processing file files/uark_20.html
+Total tokens in document: 919
+Unique tokens in document: 412
+
+Processing file files/colorado_25.html
+Total tokens in document: 2349
+Unique tokens in document: 761
+
+Processing file files/umich_14.html
+Total tokens in document: 2031
+Unique tokens in document: 638
+
+Processing file files/caltech_25.html
+Total tokens in document: 830
+Unique tokens in document: 286
+
+Processing file files/unc_24.html
+Total tokens in document: 1227
+Unique tokens in document: 515
+
+Processing file files/ucla_27.html
+Total tokens in document: 960
+Unique tokens in document: 524
+
+Processing file files/mit_17.html
+Total tokens in document: 477
+Unique tokens in document: 305
+
+Processing file files/index.html
+Total tokens in document: 66
+Unique tokens in document: 52
+
+Processing file files/uark_18.html
+Total tokens in document: 1077
+Unique tokens in document: 500
+
+Processing file files/virginia_24.html
+Total tokens in document: 269
+Unique tokens in document: 184
+
+Processing file files/919.html
+Total tokens in document: 51435
+Unique tokens in document: 5498
+
+Processing file files/northwestern_27.html
+Total tokens in document: 3116
+Unique tokens in document: 787
+
+Processing file files/yale_8.html
+Total tokens in document: 1984
+Unique tokens in document: 813
+
+Processing file files/941.html
+Total tokens in document: 14547
+Unique tokens in document: 3736
+
+Processing file files/0.html
+Total tokens in document: 4
+Unique tokens in document: 4
+
+Processing file files/princeton_21.html
+Total tokens in document: 591
+Unique tokens in document: 250
+
+Processing file files/nd_10.html
+Total tokens in document: 539
+Unique tokens in document: 293
+
+Processing file files/nd_28.html
+Total tokens in document: 370
+Unique tokens in document: 184
+
+Processing file files/uci_1.html
+Total tokens in document: 1287
+Unique tokens in document: 633
+
+Processing file files/ufl_5.html
+Total tokens in document: 843
+Unique tokens in document: 449
+
+Processing file files/northwestern_16.html
+Total tokens in document: 730
+Unique tokens in document: 283
+
+Processing file files/colorado_11.html
+Total tokens in document: 314
+Unique tokens in document: 170
+
+Processing file files/harvard_20.html
+Total tokens in document: 1957
+Unique tokens in document: 747
+
+Processing file files/cornell_14.html
+Total tokens in document: 696
+Unique tokens in document: 371
+
+Processing file files/usc_23.html
+Total tokens in document: 2245
+Unique tokens in document: 889
+
+Processing file files/uci_19.html
+Total tokens in document: 695
+Unique tokens in document: 395
+
+Processing file files/cmu_28.html
+Total tokens in document: 892
+Unique tokens in document: 261
+
+Processing file files/nd_17.html
+Total tokens in document: 1828
+Unique tokens in document: 727
+
+Processing file files/yale_21.html
+Total tokens in document: 1145
+Unique tokens in document: 492
+
+Processing file files/jhu_7.html
+Total tokens in document: 1093
+Unique tokens in document: 409
+
+Processing file files/brown_11.html
+Total tokens in document: 604
+Unique tokens in document: 230
+
+Processing file files/rochester_9.html
+Total tokens in document: 1069
+Unique tokens in document: 436
+
+Processing file files/usc_26.html
+Total tokens in document: 1458
+Unique tokens in document: 614
+
+Processing file files/rice_23.html
+Total tokens in document: 674
+Unique tokens in document: 345
+
+Processing file files/usc_6.html
+Total tokens in document: 2185
+Unique tokens in document: 851
+
+Processing file files/gatech_27.html
+Total tokens in document: 987
+Unique tokens in document: 546
+
+Processing file files/ufl_4.html
+Total tokens in document: 671
+Unique tokens in document: 349
+
+Processing file files/utexas_27.html
+Total tokens in document: 1168
+Unique tokens in document: 538
+
+Processing file files/usc_21.html
+Total tokens in document: 3170
+Unique tokens in document: 801
+
+Processing file files/ufl_16.html
+Total tokens in document: 958
+Unique tokens in document: 466
+
+Processing file files/umn_10.html
+Total tokens in document: 1246
+Unique tokens in document: 501
+
+Processing file files/mit_2.html
+Total tokens in document: 1348
+Unique tokens in document: 554
+
+Processing file files/vanderbilt_21.html
+Total tokens in document: 460
+Unique tokens in document: 233
+
+Processing file files/stanford_6.html
+Total tokens in document: 524
+Unique tokens in document: 279
+
+Processing file files/wisc_26.html
+Total tokens in document: 827
+Unique tokens in document: 358
+
+Processing file files/bu_27.html
+Total tokens in document: 1608
+Unique tokens in document: 503
+
+Processing file files/rice_24.html
+Total tokens in document: 826
+Unique tokens in document: 411
+
+Processing file files/gatech_20.html
+Total tokens in document: 620
+Unique tokens in document: 348
+
+Processing file files/cornell_22.html
+Total tokens in document: 1022
+Unique tokens in document: 543
+
+Processing file files/ucsd_1.html
+Total tokens in document: 1214
+Unique tokens in document: 490
+
+Processing file files/uci_15.html
+Total tokens in document: 1287
+Unique tokens in document: 633
+
+Processing file files/colorado_27.html
+Total tokens in document: 856
+Unique tokens in document: 365
+
+Processing file files/mit_6.html
+Total tokens in document: 499
+Unique tokens in document: 256
+
+Processing file files/virginia_19.html
+Total tokens in document: 566
+Unique tokens in document: 342
+
+Processing file files/ufl_20.html
+Total tokens in document: 503
+Unique tokens in document: 280
+
+Processing file files/stanford_12.html
+Total tokens in document: 652
+Unique tokens in document: 341
+
+Processing file files/northwestern_30.html
+Total tokens in document: 670
+Unique tokens in document: 217
+
+Processing file files/uga_1.html
+Total tokens in document: 58
+Unique tokens in document: 53
+
+Processing file files/osu_7.html
+Total tokens in document: 1455
+Unique tokens in document: 613
+
+Processing file files/umd_1.html
+Total tokens in document: 1661
+Unique tokens in document: 735
+
+Processing file files/942.html
+Total tokens in document: 112614
+Unique tokens in document: 10172
+
+Processing file files/psu_7.html
+Total tokens in document: 969
+Unique tokens in document: 378
+
+Processing file files/924.html
+Total tokens in document: 88100
+Unique tokens in document: 7890
+
+Processing file files/nd_16.html
+Total tokens in document: 6175
+Unique tokens in document: 2115
+
+Processing file files/vanderbilt_25.html
+Total tokens in document: 1748
+Unique tokens in document: 674
+
+Processing file files/brown_16.html
+Total tokens in document: 760
+Unique tokens in document: 372
+
+Processing file files/colorado_9.html
+Total tokens in document: 63
+Unique tokens in document: 38
+
+Processing file files/rice_16.html
+Total tokens in document: 638
+Unique tokens in document: 341
+
+Processing file files/stanford_17.html
+Total tokens in document: 4718
+Unique tokens in document: 992
+
+Processing file files/arizona_5.html
+Total tokens in document: 604
+Unique tokens in document: 323
+
+Processing file files/cornell_1.html
+Total tokens in document: 760
+Unique tokens in document: 391
+
+Processing file files/purdue_6.html
+Total tokens in document: 539
+Unique tokens in document: 290
+
+Processing file files/mit_26.html
+Total tokens in document: 312
+Unique tokens in document: 175
+
+Processing file files/washington_6.html
+Total tokens in document: 1266
+Unique tokens in document: 442
+
+Processing file files/jhu_17.html
+Total tokens in document: 947
+Unique tokens in document: 343
+
+Processing file files/upenn_8.html
+Total tokens in document: 916
+Unique tokens in document: 380
+
+Processing file files/usc_24.html
+Total tokens in document: 1715
+Unique tokens in document: 617
+
+Processing file files/938.html
+Total tokens in document: 16554
+Unique tokens in document: 4119
+
+Processing file files/rice_3.html
+Total tokens in document: 950
+Unique tokens in document: 480
+
+Processing file files/bu_22.html
+Total tokens in document: 446
+Unique tokens in document: 229
+
+Processing file files/jhu_21.html
+Total tokens in document: 888
+Unique tokens in document: 333
+
+Processing file files/uark_23.html
+Total tokens in document: 162083
+Unique tokens in document: 19573
+
+Processing file files/mit_24.html
+Total tokens in document: 335
+Unique tokens in document: 186
+
+Processing file files/colorado_16.html
+Total tokens in document: 2135
+Unique tokens in document: 554
+
+Processing file files/usc_20.html
+Total tokens in document: 1365
+Unique tokens in document: 506
+
+Processing file files/yale_28.html
+Total tokens in document: 672
+Unique tokens in document: 360
+
+Processing file files/illinois_7.html
+Total tokens in document: 724
+Unique tokens in document: 377
+
+Processing file files/osu_16.html
+Total tokens in document: 2108
+Unique tokens in document: 643
+
+Processing file files/virginia_25.html
+Total tokens in document: 350
+Unique tokens in document: 237
+
+Processing file files/mit_3.html
+Total tokens in document: 301
+Unique tokens in document: 161
+
+Processing file files/cmu_24.html
+Total tokens in document: 1080
+Unique tokens in document: 355
+
+Processing file files/washington_7.html
+Total tokens in document: 1188
+Unique tokens in document: 490
+
+Processing file files/utexas_4.html
+Total tokens in document: 883
+Unique tokens in document: 429
+
+Processing file files/pitt_27.html
+Total tokens in document: 997
+Unique tokens in document: 484
+
+Processing file files/umd_22.html
+Total tokens in document: 145
+Unique tokens in document: 86
+
+Processing file files/umd_4.html
+Total tokens in document: 1476
+Unique tokens in document: 699
+
+Processing file files/unc_8.html
+Total tokens in document: 705
+Unique tokens in document: 277
+
+Processing file files/usc_19.html
+Total tokens in document: 2027
+Unique tokens in document: 797
+
+Processing file files/yale_16.html
+Total tokens in document: 1013
+Unique tokens in document: 520
+
+Processing file files/904.html
+Total tokens in document: 17862
+Unique tokens in document: 4298
+
+Processing file files/upenn_1.html
+Total tokens in document: 1265
+Unique tokens in document: 560
+
+Processing file files/brown_10.html
+Total tokens in document: 1377
+Unique tokens in document: 525
+
+Processing file files/princeton_1.html
+Total tokens in document: 1383
+Unique tokens in document: 712
+
+Processing file files/stanford_24.html
+Total tokens in document: 927
+Unique tokens in document: 486
+
+Processing file files/northwestern_26.html
+Total tokens in document: 41357
+Unique tokens in document: 5821
+
+Processing file files/umich_10.html
+Total tokens in document: 581
+Unique tokens in document: 357
+
+Processing file files/947.html
+Total tokens in document: 16325
+Unique tokens in document: 3958
+
+Processing file files/colorado_19.html
+Total tokens in document: 2275
+Unique tokens in document: 631
+
+Processing file files/umn_25.html
+Total tokens in document: 1622
+Unique tokens in document: 614
+
+Processing file files/907.html
+Total tokens in document: 15197
+Unique tokens in document: 3704
+
+Processing file files/uark_14.html
+Total tokens in document: 937
+Unique tokens in document: 402
+
+Processing file files/osu_19.html
+Total tokens in document: 812
+Unique tokens in document: 346
+
+Processing file files/arizona_24.html
+Total tokens in document: 963
+Unique tokens in document: 461
+
+Processing file files/medium.html
+Total tokens in document: 70
+Unique tokens in document: 64
+
+Processing file files/vanderbilt_14.html
+Total tokens in document: 1216
+Unique tokens in document: 471
+
+Processing file files/943.html
+Total tokens in document: 126483
+Unique tokens in document: 11089
+
+Processing file files/rochester_26.html
+Total tokens in document: 900
+Unique tokens in document: 366
+
+Processing file files/upenn_7.html
+Total tokens in document: 527
+Unique tokens in document: 272
+
+Processing file files/washington_3.html
+Total tokens in document: 184
+Unique tokens in document: 128
+
+Processing file files/pitt_23.html
+Total tokens in document: 1461
+Unique tokens in document: 672
+
+Processing file files/yale_15.html
+Total tokens in document: 726
+Unique tokens in document: 364
+
+Processing file files/usc_29.html
+Total tokens in document: 1417
+Unique tokens in document: 586
+
+Processing file files/gatech_5.html
+Total tokens in document: 1049
+Unique tokens in document: 461
+
+Processing file files/northwestern_21.html
+Total tokens in document: 1286
+Unique tokens in document: 385
+
+Processing file files/rochester_1.html
+Total tokens in document: 534
+Unique tokens in document: 325
+
+Processing file files/northwestern_25.html
+Total tokens in document: 621
+Unique tokens in document: 207
+
+Processing file files/virginia_30.html
+Total tokens in document: 599
+Unique tokens in document: 313
+
+Processing file files/923.html
+Total tokens in document: 32462
+Unique tokens in document: 4166
+
+Processing file files/umn_9.html
+Total tokens in document: 912
+Unique tokens in document: 444
+
+Processing file files/ufl_11.html
+Total tokens in document: 557
+Unique tokens in document: 297
+
+Processing file files/psu_1.html
+Total tokens in document: 1081
+Unique tokens in document: 384
+
+Processing file files/ucla_6.html
+Total tokens in document: 1186
+Unique tokens in document: 575
+
+Processing file files/wisc_2.html
+Total tokens in document: 557
+Unique tokens in document: 331
+
+Processing file files/caltech_18.html
+Total tokens in document: 1201
+Unique tokens in document: 445
+
+Processing file files/jhu_14.html
+Total tokens in document: 1027
+Unique tokens in document: 414
+
+Processing file files/princeton_13.html
+Total tokens in document: 696
+Unique tokens in document: 320
+
+Processing file files/osu_10.html
+Total tokens in document: 3471
+Unique tokens in document: 1102
+
+Processing file files/colorado_14.html
+Total tokens in document: 2349
+Unique tokens in document: 761
+
+Processing file files/arizona_8.html
+Total tokens in document: 1306
+Unique tokens in document: 463
+
+Processing file files/bu_20.html
+Total tokens in document: 3666
+Unique tokens in document: 430
+
+Processing file files/yale_30.html
+Total tokens in document: 797
+Unique tokens in document: 407
+
+Processing file files/msu_18.html
+Total tokens in document: 6814
+Unique tokens in document: 1518
+
+Processing file files/rochester_14.html
+Total tokens in document: 725
+Unique tokens in document: 372
+
+Processing file files/umd_18.html
+Total tokens in document: 247
+Unique tokens in document: 141
+
+Processing file files/umd_21.html
+Total tokens in document: 1627
+Unique tokens in document: 734
+
+Processing file files/wustl_2.html
+Total tokens in document: 1089
+Unique tokens in document: 477
+
+Processing file files/cmu_8.html
+Total tokens in document: 1022
+Unique tokens in document: 422
+
+Processing file files/mit_13.html
+Total tokens in document: 820
+Unique tokens in document: 449
+
+Processing file files/yale_14.html
+Total tokens in document: 1164
+Unique tokens in document: 544
+
+Processing file files/ufl_2.html
+Total tokens in document: 381
+Unique tokens in document: 230
+
+Processing file files/utexas_26.html
+Total tokens in document: 923
+Unique tokens in document: 482
+
+Processing file files/nd_8.html
+Total tokens in document: 3226
+Unique tokens in document: 1118
+
+Processing file files/jhu_1.html
+Total tokens in document: 1108
+Unique tokens in document: 473
+
+Processing file files/purdue_24.html
+Total tokens in document: 916
+Unique tokens in document: 454
+
+Processing file files/arizona_11.html
+Total tokens in document: 1405
+Unique tokens in document: 672
+
+Processing file files/harvard_13.html
+Total tokens in document: 1201
+Unique tokens in document: 516
+
+Processing file files/jhu_13.html
+Total tokens in document: 443078
+Unique tokens in document: 42129
+
+Processing file files/uark_21.html
+Total tokens in document: 1077
+Unique tokens in document: 500
+
+Processing file files/usc_11.html
+Total tokens in document: 1784
+Unique tokens in document: 706
+
+Processing file files/umd_11.html
+Total tokens in document: 920
+Unique tokens in document: 344
+
+Processing file files/princeton_3.html
+Total tokens in document: 1850
+Unique tokens in document: 711
+
+Processing file files/northwestern_20.html
+Total tokens in document: 96379
+Unique tokens in document: 12203
+
+Processing file files/usc_9.html
+Total tokens in document: 1618
+Unique tokens in document: 636
+
+Processing file files/arizona_28.html
+Total tokens in document: 812
+Unique tokens in document: 393
+
+Processing file files/purdue_1.html
+Total tokens in document: 978
+Unique tokens in document: 357
+
+Processing file files/umn_18.html
+Total tokens in document: 1578
+Unique tokens in document: 589
+
+Processing file files/virginia_18.html
+Total tokens in document: 396
+Unique tokens in document: 222
+
+Processing file files/msu_11.html
+Total tokens in document: 3103
+Unique tokens in document: 920
+
+Processing file files/purdue_21.html
+Total tokens in document: 5633
+Unique tokens in document: 524
+
+Processing file files/utexas_8.html
+Total tokens in document: 712
+Unique tokens in document: 394
+
+Processing file files/brown_5.html
+Total tokens in document: 504
+Unique tokens in document: 222
+
+Processing file files/princeton_11.html
+Total tokens in document: 1886
+Unique tokens in document: 672
+
+Processing file files/vanderbilt_3.html
+Total tokens in document: 4964
+Unique tokens in document: 1316
+
+Processing file files/umich_11.html
+Total tokens in document: 351
+Unique tokens in document: 226
+
+Processing file files/psu_9.html
+Total tokens in document: 1150
+Unique tokens in document: 429
+
+Processing file files/uci_3.html
+Total tokens in document: 561
+Unique tokens in document: 317
+
+Processing file files/nd_6.html
+Total tokens in document: 927
+Unique tokens in document: 419
+
+Processing file files/rochester_7.html
+Total tokens in document: 341
+Unique tokens in document: 194
+
+Processing file files/pitt_26.html
+Total tokens in document: 639
+Unique tokens in document: 306
+
+Processing file files/ufl_1.html
+Total tokens in document: 1044
+Unique tokens in document: 550
+
+Processing file files/yale_23.html
+Total tokens in document: 1144
+Unique tokens in document: 492
+
+Processing file files/stanford_4.html
+Total tokens in document: 549
+Unique tokens in document: 273
+
+Processing file files/emory_2.html
+Total tokens in document: 777
+Unique tokens in document: 408
+
+Processing file files/osu_29.html
+Total tokens in document: 860
+Unique tokens in document: 376
+
+Processing file files/gatech_6.html
+Total tokens in document: 868
+Unique tokens in document: 420
+
+Processing file files/harvard_3.html
+Total tokens in document: 997
+Unique tokens in document: 458
+
+Processing file files/caltech_23.html
+Total tokens in document: 1231
+Unique tokens in document: 441
+
+Processing file files/gatech_14.html
+Total tokens in document: 1774
+Unique tokens in document: 538
+
+Processing file files/ucsd_8.html
+Total tokens in document: 6647
+Unique tokens in document: 1140
+
+Processing file files/psu_20.html
+Total tokens in document: 345
+Unique tokens in document: 172
+
+Processing file files/osu_26.html
+Total tokens in document: 717
+Unique tokens in document: 324
+
+Processing file files/northwestern_22.html
+Total tokens in document: 1416
+Unique tokens in document: 524
+
+Processing file files/bu_24.html
+Total tokens in document: 382
+Unique tokens in document: 211
+
+Processing file files/caltech_10.html
+Total tokens in document: 1042
+Unique tokens in document: 392
+
+Processing file files/umn_8.html
+Total tokens in document: 859
+Unique tokens in document: 349
+
+Processing file files/brown_12.html
+Total tokens in document: 1202
+Unique tokens in document: 423
+
+Processing file files/umd_8.html
+Total tokens in document: 3108
+Unique tokens in document: 1088
+
+Processing file files/brown_28.html
+Total tokens in document: 890
+Unique tokens in document: 337
+
+Processing file files/washington_22.html
+Total tokens in document: 592
+Unique tokens in document: 258
+
+Processing file files/wisc_14.html
+Total tokens in document: 1208
+Unique tokens in document: 550
+
+Processing file files/uci_13.html
+Total tokens in document: 521
+Unique tokens in document: 334
+
+Processing file files/harvard_29.html
+Total tokens in document: 1918
+Unique tokens in document: 735
+
+Processing file files/ufl_19.html
+Total tokens in document: 2665
+Unique tokens in document: 1022
+
+Processing file files/princeton_9.html
+Total tokens in document: 1715
+Unique tokens in document: 702
+
+Processing file files/nd_18.html
+Total tokens in document: 598
+Unique tokens in document: 277
+
+Processing file files/pitt_8.html
+Total tokens in document: 1107
+Unique tokens in document: 557
+
+Processing file files/vanderbilt_7.html
+Total tokens in document: 523
+Unique tokens in document: 247
+
+Processing file files/uark_10.html
+Total tokens in document: 480
+Unique tokens in document: 207
+
+Processing file files/utexas_18.html
+Total tokens in document: 2221
+Unique tokens in document: 734
+
+Processing file files/arizona_20.html
+Total tokens in document: 471
+Unique tokens in document: 292
+
+Processing file files/msu_7.html
+Total tokens in document: 2744
+Unique tokens in document: 920
+
+Processing file files/umd_19.html
+Total tokens in document: 1661
+Unique tokens in document: 735
+
+Processing file files/colorado_23.html
+Total tokens in document: 1587
+Unique tokens in document: 389
+
+Processing file files/pitt_9.html
+Total tokens in document: 325
+Unique tokens in document: 141
+
+Processing file files/cmu_6.html
+Total tokens in document: 1416
+Unique tokens in document: 529
+
+Processing file files/purdue_20.html
+Total tokens in document: 78197
+Unique tokens in document: 6095
+
+Processing file files/nd_7.html
+Total tokens in document: 537
+Unique tokens in document: 255
+
+Processing file files/utexas_21.html
+Total tokens in document: 726
+Unique tokens in document: 390
+
+Processing file files/arizona_13.html
+Total tokens in document: 433
+Unique tokens in document: 214
+
+Processing file files/912.html
+Total tokens in document: 79034
+Unique tokens in document: 7462
+
+Processing file files/uci_6.html
+Total tokens in document: 508
+Unique tokens in document: 301
+
+Processing file files/msu_4.html
+Total tokens in document: 4069
+Unique tokens in document: 1031
+
+Processing file files/mit_14.html
+Total tokens in document: 166
+Unique tokens in document: 100
+
+Processing file files/pitt_12.html
+Total tokens in document: 555
+Unique tokens in document: 270
+
+Processing file files/nd_22.html
+Total tokens in document: 347
+Unique tokens in document: 205
+
+Processing file files/princeton_19.html
+Total tokens in document: 1614
+Unique tokens in document: 662
+
+Processing file files/935.html
+Total tokens in document: 16727
+Unique tokens in document: 4093
+
+Processing file files/905.html
+Total tokens in document: 16302
+Unique tokens in document: 3935
+
+Processing file files/virginia_20.html
+Total tokens in document: 714
+Unique tokens in document: 372
+
+Processing file files/ufl_18.html
+Total tokens in document: 1537
+Unique tokens in document: 713
+
+Processing file files/gatech_2.html
+Total tokens in document: 1116
+Unique tokens in document: 516
+
+Processing file files/umn_1.html
+Total tokens in document: 677
+Unique tokens in document: 319
+
+Processing file files/unc_12.html
+Total tokens in document: 775
+Unique tokens in document: 314
+
+Processing file files/pitt_10.html
+Total tokens in document: 361
+Unique tokens in document: 163
+
+Processing file files/colorado_10.html
+Total tokens in document: 679
+Unique tokens in document: 320
+
+Processing file files/msu_1.html
+Total tokens in document: 1429
+Unique tokens in document: 563
+
+Processing file files/msu_5.html
+Total tokens in document: 1542
+Unique tokens in document: 557
+
+Processing file files/vanderbilt_23.html
+Total tokens in document: 723
+Unique tokens in document: 311
+
+Processing file files/purdue_29.html
+Total tokens in document: 1310
+Unique tokens in document: 580
+
+Processing file files/uci_18.html
+Total tokens in document: 740
+Unique tokens in document: 418
+
+Processing file files/gatech_12.html
+Total tokens in document: 2089
+Unique tokens in document: 758
+
+Processing file files/brown_24.html
+Total tokens in document: 638
+Unique tokens in document: 243
+
+Processing file files/arizona_21.html
+Total tokens in document: 1029
+Unique tokens in document: 456
+
+Processing file files/940.html
+Total tokens in document: 109173
+Unique tokens in document: 15712
+
+Processing file files/mit_15.html
+Total tokens in document: 1135
+Unique tokens in document: 543
+
+Processing file files/ucla_29.html
+Total tokens in document: 822
+Unique tokens in document: 429
+
+Processing file files/msu_8.html
+Total tokens in document: 1473
+Unique tokens in document: 566
+
+Processing file files/nd_5.html
+Total tokens in document: 786
+Unique tokens in document: 412
+
+Processing file files/cornell_6.html
+Total tokens in document: 1476
+Unique tokens in document: 637
+
+Processing file files/purdue_12.html
+Total tokens in document: 391
+Unique tokens in document: 206
+
+Processing file files/wisc_3.html
+Total tokens in document: 1305
+Unique tokens in document: 492
+
+Processing file files/utexas_22.html
+Total tokens in document: 488
+Unique tokens in document: 305
+
+Processing file files/princeton_5.html
+Total tokens in document: 1157
+Unique tokens in document: 481
+
+Processing file files/cornell_19.html
+Total tokens in document: 936
+Unique tokens in document: 464
+
+Processing file files/wisc_23.html
+Total tokens in document: 414
+Unique tokens in document: 241
+
+Processing file files/virginia_22.html
+Total tokens in document: 250
+Unique tokens in document: 175
+
+Processing file files/brown_7.html
+Total tokens in document: 1507
+Unique tokens in document: 603
+
+Processing file files/msu_21.html
+Total tokens in document: 4744
+Unique tokens in document: 1291
+
+Processing file files/caltech_5.html
+Total tokens in document: 1932
+Unique tokens in document: 758
+
+Processing file files/gatech_11.html
+Total tokens in document: 1006
+Unique tokens in document: 470
+
+Processing file files/osu_23.html
+Total tokens in document: 590
+Unique tokens in document: 290
+
+Processing file files/ucla_11.html
+Total tokens in document: 1030
+Unique tokens in document: 529
+
+Processing file files/mit_22.html
+Total tokens in document: 169
+Unique tokens in document: 102
+
+Processing file files/cmu_12.html
+Total tokens in document: 1090
+Unique tokens in document: 311
+
+Processing file files/northwestern_2.html
+Total tokens in document: 1500
+Unique tokens in document: 457
+
+Processing file files/bu_25.html
+Total tokens in document: 603
+Unique tokens in document: 304
+
+Processing file files/ucla_8.html
+Total tokens in document: 1290
+Unique tokens in document: 648
+
+Processing file files/vanderbilt_8.html
+Total tokens in document: 1062
+Unique tokens in document: 422
+
+Processing file files/jhu_23.html
+Total tokens in document: 933
+Unique tokens in document: 347
+
+Processing file files/northwestern_4.html
+Total tokens in document: 2786
+Unique tokens in document: 646
+
+Processing file files/virginia_11.html
+Total tokens in document: 472
+Unique tokens in document: 270
+
+Processing file files/pitt_20.html
+Total tokens in document: 2608
+Unique tokens in document: 865
+
+Processing file files/vanderbilt_27.html
+Total tokens in document: 0
+Unique tokens in document: 0
+
+Processing file files/uark_16.html
+Total tokens in document: 439
+Unique tokens in document: 199
+
+Processing file files/cornell_5.html
+Total tokens in document: 714
+Unique tokens in document: 364
+
+Processing file files/rice_11.html
+Total tokens in document: 738
+Unique tokens in document: 363
+
+Processing file files/ufl_21.html
+Total tokens in document: 556
+Unique tokens in document: 298
+
+Processing file files/jhu_30.html
+Total tokens in document: 22296
+Unique tokens in document: 1032
+
+Processing file files/usc_15.html
+Total tokens in document: 1903
+Unique tokens in document: 751
+
+Processing file files/yale_25.html
+Total tokens in document: 954
+Unique tokens in document: 473
+
+Processing file files/umich_2.html
+Total tokens in document: 528
+Unique tokens in document: 250
+
+Processing file files/psu_13.html
+Total tokens in document: 1030
+Unique tokens in document: 359
+
+Processing file files/caltech_24.html
+Total tokens in document: 8610
+Unique tokens in document: 1377
+
+Processing file files/yale_13.html
+Total tokens in document: 758
+Unique tokens in document: 380
+
+Processing file files/pitt_4.html
+Total tokens in document: 1117
+Unique tokens in document: 487
+
+Processing file files/washington_23.html
+Total tokens in document: 1417
+Unique tokens in document: 559
+
+Processing file files/psu_15.html
+Total tokens in document: 1316
+Unique tokens in document: 405
+
+Processing file files/arizona_14.html
+Total tokens in document: 2378
+Unique tokens in document: 839
+
+Processing file files/bu_8.html
+Total tokens in document: 1232
+Unique tokens in document: 399
+
+Processing file files/gatech_29.html
+Total tokens in document: 627
+Unique tokens in document: 337
+
+Processing file files/upenn_12.html
+Total tokens in document: 1265
+Unique tokens in document: 560
+
+Processing file files/msu_3.html
+Total tokens in document: 1854
+Unique tokens in document: 602
+
+Processing file files/jhu_20.html
+Total tokens in document: 1205
+Unique tokens in document: 531
+
+Processing file files/harvard_19.html
+Total tokens in document: 1918
+Unique tokens in document: 735
+
+Processing file files/northwestern_7.html
+Total tokens in document: 13
+Unique tokens in document: 12
+
+Processing file files/unc_4.html
+Total tokens in document: 947
+Unique tokens in document: 396
+
+Processing file files/nd_24.html
+Total tokens in document: 1108
+Unique tokens in document: 486
+
+Processing file files/stanford_13.html
+Total tokens in document: 652
+Unique tokens in document: 341
+
+Processing file files/miami_2.html
+Total tokens in document: 565
+Unique tokens in document: 278
+
+Processing file files/colorado_5.html
+Total tokens in document: 3025
+Unique tokens in document: 849
+
+Processing file files/nd_15.html
+Total tokens in document: 3229
+Unique tokens in document: 1003
+
+Processing file files/vanderbilt_2.html
+Total tokens in document: 1076
+Unique tokens in document: 469
+
+Processing file files/msu_12.html
+Total tokens in document: 1185
+Unique tokens in document: 423
+
+Processing file files/mit_8.html
+Total tokens in document: 1061
+Unique tokens in document: 509
+
+Processing file files/sgauch.html
+Total tokens in document: 452
+Unique tokens in document: 243
+
+Processing file files/946.html
+Total tokens in document: 16979
+Unique tokens in document: 4346
+
+Processing file files/gatech_17.html
+Total tokens in document: 1554
+Unique tokens in document: 686
+
+Processing file files/uark_22.html
+Total tokens in document: 937
+Unique tokens in document: 402
+
+Processing file files/utexas_5.html
+Total tokens in document: 1923
+Unique tokens in document: 629
+
+Processing file files/purdue_10.html
+Total tokens in document: 22
+Unique tokens in document: 20
+
+Processing file files/purdue_3.html
+Total tokens in document: 441
+Unique tokens in document: 230
+
+Processing file files/upenn_25.html
+Total tokens in document: 623
+Unique tokens in document: 325
+
+Processing file files/brown_26.html
+Total tokens in document: 628
+Unique tokens in document: 251
+
+Processing file files/illinois_8.html
+Total tokens in document: 757
+Unique tokens in document: 382
+
+Processing file files/washington_28.html
+Total tokens in document: 692
+Unique tokens in document: 309
+
+Processing file files/mit_16.html
+Total tokens in document: 548
+Unique tokens in document: 278
+
+Processing file files/unc_28.html
+Total tokens in document: 1228
+Unique tokens in document: 498
+
+Processing file files/colorado_20.html
+Total tokens in document: 1978
+Unique tokens in document: 498
+
+Processing file files/uci_16.html
+Total tokens in document: 1055
+Unique tokens in document: 580
+
+Processing file files/rice_5.html
+Total tokens in document: 530
+Unique tokens in document: 289
+
+Processing file files/indiana_3.html
+Total tokens in document: 338
+Unique tokens in document: 177
+
+Processing file files/harvard_5.html
+Total tokens in document: 1337
+Unique tokens in document: 548
+
+Processing file files/unc_11.html
+Total tokens in document: 673
+Unique tokens in document: 273
+
+Processing file files/illinois_10.html
+Total tokens in document: 752
+Unique tokens in document: 416
+
+Processing file files/rice_14.html
+Total tokens in document: 2700
+Unique tokens in document: 998
+
+Processing file files/colorado_17.html
+Total tokens in document: 1365
+Unique tokens in document: 507
+
+Processing file files/virginia_9.html
+Total tokens in document: 231
+Unique tokens in document: 158
+
+Processing file files/ucsd_10.html
+Total tokens in document: 1286
+Unique tokens in document: 450
+
+Processing file files/903.html
+Total tokens in document: 16488
+Unique tokens in document: 3780
+
+Processing file files/umd_12.html
+Total tokens in document: 1335
+Unique tokens in document: 638
+
+Processing file files/cornell_13.html
+Total tokens in document: 582
+Unique tokens in document: 313
+
+Processing file files/northwestern_17.html
+Total tokens in document: 11003
+Unique tokens in document: 2274
+
+Processing file files/utexas_3.html
+Total tokens in document: 1627
+Unique tokens in document: 642
+
+Processing file files/rochester_4.html
+Total tokens in document: 826
+Unique tokens in document: 343
+
+Processing file files/umich_20.html
+Total tokens in document: 747
+Unique tokens in document: 409
+
+Processing file files/rochester_12.html
+Total tokens in document: 657
+Unique tokens in document: 277
+
+Processing file files/brown_21.html
+Total tokens in document: 720
+Unique tokens in document: 276
+
+Processing file files/arizona_7.html
+Total tokens in document: 926
+Unique tokens in document: 451
+
+Processing file files/osu_12.html
+Total tokens in document: 744
+Unique tokens in document: 376
+
+Processing file files/usc_25.html
+Total tokens in document: 1574
+Unique tokens in document: 643
+
+Processing file files/ufl_12.html
+Total tokens in document: 531
+Unique tokens in document: 288
+
+Processing file files/rochester_19.html
+Total tokens in document: 516
+Unique tokens in document: 232
+
+Processing file files/jhu_15.html
+Total tokens in document: 1337
+Unique tokens in document: 493
+
+Processing file files/wisc_28.html
+Total tokens in document: 738
+Unique tokens in document: 430
+
+Processing file files/cmu_18.html
+Total tokens in document: 9429
+Unique tokens in document: 2183
+
+Processing file files/umich_9.html
+Total tokens in document: 2031
+Unique tokens in document: 638
+
+Processing file files/northwestern_12.html
+Total tokens in document: 930
+Unique tokens in document: 356
+
+Processing file files/rochester_11.html
+Total tokens in document: 441
+Unique tokens in document: 242
+
+Processing file files/caltech_15.html
+Total tokens in document: 861
+Unique tokens in document: 295
+
+Processing file files/washington_9.html
+Total tokens in document: 1188
+Unique tokens in document: 490
+
+Processing file files/unc_5.html
+Total tokens in document: 878
+Unique tokens in document: 353
+
+Processing file files/mit_5.html
+Total tokens in document: 1135
+Unique tokens in document: 543
+
+Processing file files/uark_13.html
+Total tokens in document: 1043
+Unique tokens in document: 449
+
+Processing file files/umich_25.html
+Total tokens in document: 130
+Unique tokens in document: 84
+
+Processing file files/cmu_4.html
+Total tokens in document: 1413
+Unique tokens in document: 648
+
+Processing file files/colorado_8.html
+Total tokens in document: 318
+Unique tokens in document: 121
+
+Processing file files/purdue_13.html
+Total tokens in document: 12069
+Unique tokens in document: 520
+
+Processing file files/rochester_6.html
+Total tokens in document: 668
+Unique tokens in document: 318
+
+Processing file files/yale_12.html
+Total tokens in document: 1003
+Unique tokens in document: 516
+
+Processing file files/vanderbilt_17.html
+Total tokens in document: 833
+Unique tokens in document: 383
+
+Processing file files/931.html
+Total tokens in document: 86868
+Unique tokens in document: 10966
+
+Processing file files/uark_25.html
+Total tokens in document: 388
+Unique tokens in document: 174
+
+Processing file files/brown_1.html
+Total tokens in document: 2760
+Unique tokens in document: 655
+
+Processing file files/bu_28.html
+Total tokens in document: 623
+Unique tokens in document: 271
+
+Processing file files/rice_22.html
+Total tokens in document: 2757
+Unique tokens in document: 1013
+
+Processing file files/nd_3.html
+Total tokens in document: 713
+Unique tokens in document: 349
+
+Processing file files/osu_3.html
+Total tokens in document: 527
+Unique tokens in document: 259
+
+Processing file files/ucla_5.html
+Total tokens in document: 1007
+Unique tokens in document: 528
+
+Processing file files/jhu_4.html
+Total tokens in document: 1260
+Unique tokens in document: 406
+
+Processing file files/3.html
+Total tokens in document: 3
+Unique tokens in document: 3
+
+Processing file files/arizona_16.html
+Total tokens in document: 683
+Unique tokens in document: 350
+
+Processing file files/washington_8.html
+Total tokens in document: 548
+Unique tokens in document: 230
+
+Processing file files/simple.html
+Total tokens in document: 36
+Unique tokens in document: 28
+
+Processing file files/gatech_25.html
+Total tokens in document: 630
+Unique tokens in document: 346
+
+Processing file files/yale_3.html
+Total tokens in document: 895
+Unique tokens in document: 412
+
+Processing file files/ucsd_6.html
+Total tokens in document: 1214
+Unique tokens in document: 490
+
+Processing file files/jhu_26.html
+Total tokens in document: 736
+Unique tokens in document: 259
+
+Processing file files/uark_27.html
+Total tokens in document: 919
+Unique tokens in document: 412
+
+Processing file files/umn_17.html
+Total tokens in document: 1404
+Unique tokens in document: 618
+
+Processing file files/virginia_10.html
+Total tokens in document: 752
+Unique tokens in document: 401
+
+Processing file files/upenn_30.html
+Total tokens in document: 6483
+Unique tokens in document: 1255
+
+Processing file files/uark_1.html
+Total tokens in document: 373
+Unique tokens in document: 163
+
+Processing file files/upenn_28.html
+Total tokens in document: 1444
+Unique tokens in document: 511
+
+Processing file files/arizona_18.html
+Total tokens in document: 128
+Unique tokens in document: 82
+
+Processing file files/stanford_11.html
+Total tokens in document: 1896
+Unique tokens in document: 624
+
+Processing file files/mit_23.html
+Total tokens in document: 1135
+Unique tokens in document: 543
+
+Processing file files/unc_18.html
+Total tokens in document: 1451
+Unique tokens in document: 594
+
+Processing file files/osu_22.html
+Total tokens in document: 929
+Unique tokens in document: 312
+
+Processing file files/psu_28.html
+Total tokens in document: 1001
+Unique tokens in document: 340
+
+Processing file files/nd_1.html
+Total tokens in document: 956
+Unique tokens in document: 437
+
+Processing file files/pitt_29.html
+Total tokens in document: 665
+Unique tokens in document: 322
+
+Processing file files/jhu_25.html
+Total tokens in document: 25735
+Unique tokens in document: 6067
+
+Processing file files/harvard_27.html
+Total tokens in document: 1634
+Unique tokens in document: 623
+
+Processing file files/1.html
+Total tokens in document: 5
+Unique tokens in document: 4
+
+Processing file files/psu_29.html
+Total tokens in document: 876
+Unique tokens in document: 297
+
+Processing file files/nd_11.html
+Total tokens in document: 1022
+Unique tokens in document: 438
+
+Processing file files/uark_6.html
+Total tokens in document: 2137
+Unique tokens in document: 672
+
+Processing file files/princeton_23.html
+Total tokens in document: 452
+Unique tokens in document: 267
+
+Processing file files/pitt_1.html
+Total tokens in document: 991
+Unique tokens in document: 506
+
+Processing file files/unc_6.html
+Total tokens in document: 1651
+Unique tokens in document: 650
+
+Processing file files/umd_2.html
+Total tokens in document: 1436
+Unique tokens in document: 661
+
+Processing file files/utexas_20.html
+Total tokens in document: 228
+Unique tokens in document: 122
+
+Processing file files/gatech_10.html
+Total tokens in document: 931
+Unique tokens in document: 474
+
+Processing file files/jhu_11.html
+Total tokens in document: 945
+Unique tokens in document: 321
+
+Processing file files/umich_19.html
+Total tokens in document: 543
+Unique tokens in document: 310
+
+Processing file files/wisc_13.html
+Total tokens in document: 496
+Unique tokens in document: 321
+
+Processing file files/upenn_19.html
+Total tokens in document: 692
+Unique tokens in document: 325
+
+Processing file files/unc_2.html
+Total tokens in document: 1253
+Unique tokens in document: 524
+
+Processing file files/uci_4.html
+Total tokens in document: 735
+Unique tokens in document: 386
+
+Processing file files/virginia_21.html
+Total tokens in document: 478
+Unique tokens in document: 286
+
+Processing file files/vanderbilt_1.html
+Total tokens in document: 1062
+Unique tokens in document: 422
+
+Processing file files/cmu_10.html
+Total tokens in document: 218
+Unique tokens in document: 153
+
+Processing file files/jhu_12.html
+Total tokens in document: 958
+Unique tokens in document: 366
+
+Processing file files/uci_17.html
+Total tokens in document: 1181
+Unique tokens in document: 542
+
+Processing file files/wisc_21.html
+Total tokens in document: 584
+Unique tokens in document: 348
+
+Processing file files/jhu_16.html
+Total tokens in document: 963
+Unique tokens in document: 349
+
+Processing file files/brown_30.html
+Total tokens in document: 1516
+Unique tokens in document: 565
+
+Processing file files/msu_6.html
+Total tokens in document: 1858
+Unique tokens in document: 661
+
+Processing file files/wustl_1.html
+Total tokens in document: 1035
+Unique tokens in document: 416
+
+Processing file files/osu_5.html
+Total tokens in document: 8
+Unique tokens in document: 8
+
+Processing file files/umn_16.html
+Total tokens in document: 1735
+Unique tokens in document: 693
+
+Processing file files/cornell_12.html
+Total tokens in document: 9754
+Unique tokens in document: 2612
+
+Processing file files/umich_6.html
+Total tokens in document: 866
+Unique tokens in document: 485
+
+Processing file files/gatech_15.html
+Total tokens in document: 676
+Unique tokens in document: 360
+
+Processing file files/utexas_2.html
+Total tokens in document: 708
+Unique tokens in document: 364
+
+Processing file files/caltech_20.html
+Total tokens in document: 9721
+Unique tokens in document: 1454
+
+Processing file files/msu_17.html
+Total tokens in document: 894
+Unique tokens in document: 362
+
+Processing file files/caltech_1.html
+Total tokens in document: 1932
+Unique tokens in document: 758
+
+Processing file files/msu_19.html
+Total tokens in document: 58716
+Unique tokens in document: 8252
+
+Processing file files/gatech_19.html
+Total tokens in document: 620
+Unique tokens in document: 343
+
+Processing file files/northwestern_28.html
+Total tokens in document: 2757
+Unique tokens in document: 646
+
+Processing file files/stanford_5.html
+Total tokens in document: 549
+Unique tokens in document: 273
+
+Processing file files/washington_2.html
+Total tokens in document: 784
+Unique tokens in document: 329
+
+Processing file files/upenn_13.html
+Total tokens in document: 262
+Unique tokens in document: 135
+
+Processing file files/colorado_29.html
+Total tokens in document: 604
+Unique tokens in document: 305
+
+Processing file files/utexas_10.html
+Total tokens in document: 767
+Unique tokens in document: 409
+
+Processing file files/washington_27.html
+Total tokens in document: 1696
+Unique tokens in document: 531
+
+Processing file files/illinois_5.html
+Total tokens in document: 832
+Unique tokens in document: 414
+
+Processing file files/brown_15.html
+Total tokens in document: 741
+Unique tokens in document: 297
+
+Processing file files/osu_2.html
+Total tokens in document: 899
+Unique tokens in document: 414
+Collection unique tokens: 160900
+
+Collection total tokens: 5250738
+Done tokenizing.
+[?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ [7mls -lt[27mls -lt
+[?2004ltotal 1396
+-rw-r--r-- 1 htrejo htrejo 122880 Oct 12 22:56 hw3pt3-final-typescript-new
+-rwxr-xr-x 1 htrejo htrejo 105080 Oct 12 22:56 [0m[01;32mmultiplefiles[0m
+-rw-r--r-- 1 htrejo htrejo  60413 Oct 12 22:56 lex.yy.c
+-rw-r--r-- 1 htrejo htrejo   9195 Oct 12 22:42 multiplefiles.lex
+-rw-r--r-- 1 htrejo htrejo    919 Oct 12 17:46 hw3pt3-final-typescript
+drwxr-xr-x 2 htrejo htrejo   4096 Oct 12 17:46 [01;34mtypescript-test[0m
+drwxr-xr-x 2 htrejo htrejo   4096 Oct 12 17:44 [01;34mtinyfinal[0m
+-rw-r--r-- 1 htrejo htrejo   4549 Oct 12 17:43 large-index-samples.txt
+-rw-r--r-- 1 htrejo htrejo     31 Oct 12 17:41 final-time2.txt
+-rw-r--r-- 1 htrejo htrejo 118060 Oct 12 17:41 final-run.log
+-rw-r--r-- 1 htrejo htrejo    181 Oct 12 17:40 timing-results.txt
+-rw-r--r-- 1 htrejo htrejo 103135 Oct 12 17:40 timing1000.log
+-rw-r--r-- 1 htrejo htrejo  81976 Oct 12 17:40 timing800.log
+-rw-r--r-- 1 htrejo htrejo  61476 Oct 12 17:39 timing600.log
+-rw-r--r-- 1 htrejo htrejo  40947 Oct 12 17:39 timing400.log
+-rw-r--r-- 1 htrejo htrejo  20362 Oct 12 17:38 timing200.log
+-rw-r--r-- 1 htrejo htrejo     31 Oct 12 17:38 final-time.txt
+drwxr-xr-x 2 htrejo htrejo   4096 Oct 12 17:37 [01;34mfinaloutput[0m
+drwxr-xr-x 2 htrejo htrejo   4096 Oct 12 17:36 [01;34mcleanoutput[0m
+drwxr-xr-x 3 htrejo htrejo   4096 Oct 12 17:23 [01;34mHW3Pt3Submission[0m
+-rw-r--r-- 1 htrejo htrejo   4686 Oct 12 17:23 invertedFile.cpp
+-rw-r--r-- 1 htrejo htrejo   1201 Oct 12 17:23 invertedFile.h
+-rw-r--r-- 1 htrejo htrejo   2990 Oct 12 17:23 README.md
+drwxr-xr-x 2 htrejo htrejo  45056 Oct 12 17:13 [01;34mtimingoutput1000[0m
+drwxr-xr-x 2 htrejo htrejo  36864 Oct 12 17:12 [01;34mtimingoutput800[0m
+drwxr-xr-x 2 htrejo htrejo  28672 Oct 12 17:12 [01;34mtimingoutput600[0m
+drwxr-xr-x 2 htrejo htrejo  20480 Oct 12 17:11 [01;34mtimingoutput400[0m
+drwxr-xr-x 2 htrejo htrejo  12288 Oct 12 17:11 [01;34mtimingoutput200[0m
+drwxr-xr-x 2 htrejo htrejo  36864 Oct 12 17:10 [01;34mtiming1000[0m
+drwxr-xr-x 2 htrejo htrejo  36864 Oct 12 17:10 [01;34mtiming800[0m
+drwxr-xr-x 2 htrejo htrejo  20480 Oct 12 17:10 [01;34mtiming600[0m
+drwxr-xr-x 2 htrejo htrejo  20480 Oct 12 17:10 [01;34mtiming400[0m
+drwxr-xr-x 2 htrejo htrejo  12288 Oct 12 17:10 [01;34mtiming200[0m
+drwxr-xr-x 2 htrejo htrejo  53248 Oct 12 16:59 [01;34mlargeoutput[0m
+-rw-r--r-- 1 htrejo htrejo 162748 Oct 12 16:59 large-run.log
+drwxr-xr-x 2 htrejo htrejo   4096 Oct 12 16:52 [01;34mtinyoutput[0m
+drwxr-xr-x 2 htrejo htrejo   4096 Oct 12 16:50 [01;34mhtmltestoutput[0m
+-rw-r--r-- 1 htrejo htrejo      6 Oct 12 16:44 config.txt
+-rw-r--r-- 1 htrejo htrejo     31 Oct 12 16:44 map.txt
+-rw-r--r-- 1 htrejo htrejo      0 Oct 12 16:44 dict.txt
+-rw-r--r-- 1 htrejo htrejo      0 Oct 12 16:44 post.txt
+drwxr-xr-x 2 htrejo htrejo   4096 Oct 12 16:44 [01;34mhtmltest[0m
+-rw-r--r-- 1 htrejo htrejo   2122 Oct 11 21:43 hw3pt3-typescript
+-rwxr-xr-x 1 htrejo htrejo    358 Oct 11 21:42 [01;32mhw3pt3.sh[0m
+-rw-r--r-- 1 htrejo htrejo    220 Oct 11 21:34 test901.log
+drwxr-xr-x 2 htrejo htrejo   4096 Oct 11 21:30 [01;34mtest901output[0m
+drwxr-xr-x 2 htrejo htrejo   4096 Oct 11 21:30 [01;34mtest901[0m
+-rwxr-xr-x 1 htrejo htrejo    340 Oct 11 19:46 [01;32mhw3pt2.sh[0m
+-rw-r--r-- 1 htrejo htrejo   4036 Oct 11 19:46 hw3pt2-typescript
+-rw-r--r-- 1 htrejo htrejo  23264 Oct 11 19:46 invertedFile.o
+-rw-r--r-- 1 htrejo htrejo   4694 Oct 11 19:46 multiplefiles-original.lex
+-rw-r--r-- 1 htrejo htrejo   1209 Oct 11 19:46 hashtable.h
+dr-x------ 2 htrejo htrejo   4096 Oct 11 19:46 [01;34mtinyfiles[0m
+-rw-r--r-- 1 htrejo htrejo   2026 Oct 11 19:46 tokenizer.l
+dr-x------ 2 htrejo htrejo  36864 Oct 11 19:46 [01;34mfiles[0m
+-rw-r--r-- 1 htrejo htrejo   5859 Oct 11 19:46 hashtable.cpp
+[?2004h]0;htrejo@turing: ~/HW3Pt3[01;32mhtrejo@turing[00m:[01;34m~/HW3Pt3[00m$ exit
 [?2004lexit
 
-Script done on 2026-10-12 17:46:10-05:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2026-10-12 22:57:04-05:00 [COMMAND_EXIT_CODE="0"]
